@@ -10,6 +10,11 @@ OpenAg Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   core_concepts.rst
+   Dapper/dapper.rst
+   MakeModelRun/make_model_run.rst
+
+
 
 
 Indices and tables
