@@ -13,6 +13,7 @@ OpenAg Documentation
    core_concepts.rst
    Dapper/dapper.rst
    MakeModelRun/make_model_run.rst
+   MakeModelRun/cards.rst
 
 
 
