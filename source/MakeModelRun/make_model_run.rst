@@ -9,8 +9,16 @@ Topics:
 
     region_modifications.rst
 
-Detail Heading 1
+
 -----------------
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+
+     crop_modificationa.rst
+
+-----------------
+
 
 Detail Subheading 1
 ...................
