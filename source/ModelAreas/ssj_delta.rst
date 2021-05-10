@@ -1,5 +1,5 @@
-Core Concepts in OpenAg
-========================
+The Sacramento San-Joaquin Delta Model
+========================================
 
 The Sacramento San-Joaquin Delta (Delta) occurs at the confluence of the two
 eponymous rivers and is a crucial cornerstone of water resource management in
@@ -18,8 +18,8 @@ response to user-provided scenarios of land use and water management such that c
 profitability is maintained.
 
 
-The OpenAg Model 
------------------
+The OpenAg/DAP Model
+----------------------
 The OpenDAP Beta Version model was developed using economic and
 production input data for 2014, 2015, 2016, and 2017, and is calibrated based on
 average conditions from these four baseline years. Unit of analysis consists of Delta
@@ -34,10 +34,9 @@ crop specific restrictions. This is undertaken by solving the non-linear program
 described by equations 1 to 5 below.
 
 Getting Access
-----------
-the web platform is available now as a beta version at https://dap.ucmerced.edu.
-To get access for additional staff, please contact Nick Santos at
-nsantos5@ucmerced.edu.
+----------------
+the web platform is available now as a beta version at https://openag.ucmerced.edu.
+To get access for additional staff, please `contact Nick Santos<https://nicksantos.com/about-and-contact/>`_.
 
 Model Runs
 ----------
