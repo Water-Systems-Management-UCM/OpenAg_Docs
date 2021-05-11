@@ -12,6 +12,7 @@ OpenAg Documentation
 
    core_concepts.rst
    Dapper/dapper.rst
+   ModelRuns/model_runs.rst
    MakeModelRun/make_model_run.rst
    Changelog/changelog.rst
 
