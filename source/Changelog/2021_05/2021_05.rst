@@ -1,0 +1,15 @@
+Visual Changelog - May 2021
+============================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: OpenAg Changes for May 2021:
+
+New Chart Options: Set Title and Model Run Name
+-------------------------------------------------
+.. image:: chart_options.png
+
+OpenAg includes a new section to define basic information for the chart, to allow for more useful
+exports of charts to use in reports. Options include a chart title and renaming the legend entry
+for the model run in the chart (default is "This model run"). The download button for the chart has
+been moved into this section to allow for setting chart options and exporting in one spot.
