@@ -5,6 +5,23 @@ Visual Changelog - May 2021
    :maxdepth: 1
    :caption: OpenAg Changes for May 2021:
 
+Display the Difference Between Model Runs as a Percent
+-------------------------------------------------------------
+.. figure:: chart_percent_change.gif
+
+    Now, when normalizing to another model run, you can choose to display the differences as a percentage rather
+    than as the raw values.
+
+Settings Work Now + A New Setting To Increase Table Density
+-------------------------------------------------------------
+.. figure:: settings.png
+
+    We've had a settings section for a while, but it had a bug where you couldn't actually change anything.
+    That's been fixed and you can now make use of the previously existing setting to change whether the
+    list of model runs shows all model runs in your organization by default, or just yours. Additionally,
+    we added a new setting that allows for denser table displays by removing some of the padding in each
+    table cell.
+
 Better Communication of Disabled Region Adjustments
 ----------------------------------------------------
 .. figure:: disabled_sliders.png
