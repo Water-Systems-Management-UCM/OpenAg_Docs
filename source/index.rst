@@ -14,6 +14,7 @@ OpenAg Documentation
    Dapper/dapper.rst
    MakeModelRun/make_model_run.rst
    Changelog/changelog.rst
+   Troubleshoot/troubleshooting.rst
 
 
 
