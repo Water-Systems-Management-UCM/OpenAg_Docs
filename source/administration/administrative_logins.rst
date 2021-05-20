@@ -1,5 +1,5 @@
-Administrative Logi
-======================
+Administrative Interface Login
+================================
 OpenAg uses separate login systems for the main application
 and its administrative interface, but the login systems share
 accounts. Your credentials will work in both systems, but the
