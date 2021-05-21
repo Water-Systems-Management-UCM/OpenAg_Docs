@@ -14,7 +14,6 @@ OpenAg Documentation
    Dapper/dapper.rst
    ModelRuns/model_runs.rst
    MakeModelRun/make_model_run.rst
-   administration/administration.rst
    Changelog/changelog.rst
 
 
