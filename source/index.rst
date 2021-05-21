@@ -15,6 +15,7 @@ OpenAg Documentation
    ModelRuns/model_runs.rst
    MakeModelRun/make_model_run.rst
    Changelog/changelog.rst
+   Troubleshoot/troubleshooting.rst
 
 
 
