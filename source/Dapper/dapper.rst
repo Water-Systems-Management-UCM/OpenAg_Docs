@@ -1,12 +1,15 @@
 How the Model Works
 ====================
+OpenAg separately models irrigated and nonirrigated lands. Irrigated lands use a PMP formulation
+for optimizing revenue based on land use and resource choices while nonirrigated lands use
+a statistical regression model that estimates yield based on changes in rainfall.
 
-We have preloaded the web application with 17 model runs representing the
-base case with unmodified calibration data and then 16 runs with modifications that
-reduce or increase.
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents
 
-
-As an aside for those wishing to use the API, these model runs were created with
-a script that used the API. The script is located at
-
-https://github.com/Water-Systems-Management-UCM/Waterspout/blob/release/docs/api_sample_bulk_create.py.
+    input_data.rst
+    irrigated_pmp.rst
+    nonirrigated.rst
+    outputs.rst
+    irrigated_nonirrigated_data_split.rst

@@ -17,12 +17,19 @@ activities such as water transfers through specifically crafted inputs to the mo
 
 Crops
 ------
+The OpenAg model groups
 
 Model Runs (Scenarios)
 ----------------------
 
+
+.. seealso:: :ref:`ModelRunDoc`
+
+
 Modifications
 --------------
+
+.. seealso:: :ref:`MakeModelRunsDoc`
 
 Cards
 -----
