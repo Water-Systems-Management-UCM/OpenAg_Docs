@@ -1,6 +1,6 @@
 .. _MakeModelRunsDoc:
 
-Creating Model Runs (Scenarios)
+Creating Model Runs
 ==================================
 By default, running the OpenAg model with no modifications will produce the output that most
 closely aligns with observed conditions, called the "Base Case". The OpenAg application
@@ -61,6 +61,15 @@ Region Modifications
 ______________________
 
 
+.. image:: RegionModifications.png
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: The
+
+    region_modifications.rst
+
 .. seealso::
     :ref:`RegionModificationsDoc`
 
@@ -88,8 +97,4 @@ Additional Reading on Model Run Creation
     crop_modifications.rst
     model_input_hierarchy.rst
     translating_common_scenarios.rst
-
-
-
-
 
