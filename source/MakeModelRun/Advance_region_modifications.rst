@@ -3,6 +3,7 @@
 Region Modifications
 =====================
 
+.. _AdvancedRegionOptionsSection:
 Advanced Region Options
 ------------------------
 When working with region cards, you have the option to change advanced settings by clicking on the
