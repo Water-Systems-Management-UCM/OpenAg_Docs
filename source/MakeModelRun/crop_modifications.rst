@@ -1,2 +1,4 @@
+.. _CropModificationsDoc:
+
 Crop Modifications
 ====================

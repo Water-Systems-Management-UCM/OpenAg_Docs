@@ -35,5 +35,5 @@ described by equations 1 to 5 below.
 
 Getting Access
 ----------------
-the web platform is available now as a beta version at https://openag.ucmerced.edu.
+The web platform is available now as a beta version at https://openag.ucmerced.edu.
 To get access for additional staff, please `contact Nick Santos <https://nicksantos.com/about-and-contact/>`_.

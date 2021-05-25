@@ -1,3 +1,5 @@
+.. _RegionModificationsDoc:
+
 Region Modifications
 =====================
 

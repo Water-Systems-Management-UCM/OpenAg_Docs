@@ -13,3 +13,4 @@ a statistical regression model that estimates yield based on changes in rainfall
     nonirrigated.rst
     outputs.rst
     irrigated_nonirrigated_data_split.rst
+    ../ModelAreas/model_areas.rst
