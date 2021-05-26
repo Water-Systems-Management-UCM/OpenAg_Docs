@@ -19,8 +19,8 @@ Priority Orders
 
 Highest priority items are first, and lowest priority items are last for each list
 
-Region Modifications
-______________________
+Region Modification Hierarchy
+_______________________________
 #. No Production regions:
     Regions that are set to :ref:`"No Production" <AdvancedRegionOptionsSection>` override *all* other settings that would apply to that region, including settings
     from crop cards. OpenAg drops the data for No Productions regions before running the model and the data for a removed
@@ -42,8 +42,8 @@ ______________________
 #. All Regions:
     The All Regions card is the fallback card - it applies when a more specific setting from the items above has not been provided.
 
-Crop Modifications
-_____________________
+Crop Modification Hierarchy
+____________________________________
 #. Region-linked crop value:
     Specific crop cards that have been linked to a single region take the highest priority for crop parameters and will
     be used when present.

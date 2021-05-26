@@ -7,11 +7,10 @@ Visual Changelog - May 2021
 
 Display the Difference Between Model Runs as a Percent
 -------------------------------------------------------------
-.. only:: html
-    .. figure:: chart_percent_change.gif
+.. figure:: chart_percent_change.*
 
-        Now, when normalizing to another model run, you can choose to display the differences as a percentage rather
-        than as the raw values.
+    Now, when normalizing to another model run, you can choose to display the differences as a percentage rather
+    than as the raw values.
 
 Settings Work Now + A New Setting To Increase Table Density
 -------------------------------------------------------------

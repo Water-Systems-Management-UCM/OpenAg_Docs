@@ -9,6 +9,8 @@ deviations or changes in conditions compared with the base case. You provide the
 of two separate types of modifications to the model inputs and constraints: region modifications
 and crop modifications.
 
+On this page:
+
 .. contents::
     :depth: 2
     :local:
@@ -19,7 +21,7 @@ An Overview of Model Run Creation
 Within the application, creating a model run has three steps:
 
 #. Add Region Modifications:
-    Add adjustmetns to region-wide parameters either across the model or for specific regions in the :ref:`model area <ModelAreasDoc>`.
+    Add adjustments to region-wide parameters either across the model or for specific regions in the :ref:`model area <ModelAreasDoc>`.
     Modifications for regions will always include irrigated water availability and total cropped land availability and may
     include rainfall, depending on the model area and available data.
 #. Add Crop Modifications:
@@ -39,6 +41,8 @@ e.g. what can we actually change or control in the application
 .. seealso::
     :ref:`TranslatingCommonScenariosDoc`
 
+.. _ModificationsOverviewSection:
+
 Overview of Modifications
 ---------------------------
 When creating a new model run, most inputs are expressed as modifications relative to the base case. You can express
@@ -57,27 +61,21 @@ decrease the other by 10% unless they both have the same amount of total availab
 need to determine how much water is available in each region, using either the Input Data Viewer or viewing the base case,
 and then determine what percentage values for each region would indicate the same amount of water.
 
-Region Modifications
-______________________
-
+Overview of Region Modifications
+___________________________________
 
 .. image:: RegionModifications.png
-
-
-.. toctree::
-    :maxdepth: 2
-    :caption: The
-
-    region_modifications.rst
 
 .. seealso::
     :ref:`RegionModificationsDoc`
 
-Crop Modifications
-_____________________
+Overview of Crop Modifications
+_________________________________
 
 .. seealso::
     :ref:`CropModificationsDoc`
+
+.. _AllRegionsAndAllCropsOverviewSection:
 
 All Regions and All Crops
 ___________________________

@@ -2,8 +2,11 @@
 
 Region Modifications
 =====================
+.. contents::
+    :local:
 
 .. _AdvancedRegionOptionsSection:
+
 Advanced Region Options
 ------------------------
 When working with region cards, you have the option to change advanced settings by clicking on the
@@ -28,3 +31,10 @@ be affected by the crop modification settings you choose. Results will appear ex
 while other regions will apply crop modifications as normal.
 
 .. image:: region_card_advanced.png
+
+
+Additional Reading on Modifications
+-------------------------------------------
+* :ref:`ModificationsOverviewSection`
+* :ref:`ModelInputHierarchyDoc`
+* :ref:`CropModificationsDoc`

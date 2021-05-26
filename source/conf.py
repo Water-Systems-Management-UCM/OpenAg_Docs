@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
 
@@ -22,7 +22,7 @@ copyright = '2021, UC Merced Water Systems Management Lab, Vicelab, and the Cent
 author = 'UC Merced Water Systems Management Lab, Vicelab, and the Center for Information Technology Research in the Interest of Society'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '0.2'
 
 
 # -- General configuration ---------------------------------------------------
@@ -48,6 +48,23 @@ exclude_patterns = []
 todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
+
+# set it so the HTML builder prefers gifs over PNGs so that we can include a GIF
+# when we have one, but the LaTeX/PDF builder will still include the correct
+# non-animated version. See https://stackoverflow.com/a/45970146/587938
+new_supported_image_types = [
+    'image/svg+xml',
+    'image/gif',
+    'image/png',
+    'image/jpeg'
+]
+
+# construct it this way so that if Sphinx adds default support for additional images, such
+# as HEIC, then what we do is add any of those to the end. We start with the ones
+# we want to support in this order, then subtract them from the defaults and add
+# any remaining items
+additional_default_supported_images = list(set(StandaloneHTMLBuilder.supported_image_types) - set(new_supported_image_types))
+StandaloneHTMLBuilder.supported_image_types = new_supported_image_types + additional_default_supported_images
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.

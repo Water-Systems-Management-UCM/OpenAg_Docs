@@ -7,6 +7,7 @@ The OpenAg application utilizes Positive Mathematical Programming (Howitt et al.
 changes in land use, applied irrigation water, and gross revenue based on user-provided fine-grained
 adjustments to land and water availability, crop prices and yields, and crop land use constraints.
 
+.. _RegionConceptSection:
 Regions
 --------
 Each distinct model hosted in OpenAg will contain multiple regions. Regions represent real landcape areas,
@@ -42,6 +43,8 @@ to region-level data, such as irrigated water availability, rainfall, and croppe
 data, such as price yield, and minimum/maximum land area.
 
 .. seealso:: :ref:`MakeModelRunsDoc`
+
+.. _CardsConceptSection:
 
 Cards
 -----
