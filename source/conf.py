@@ -33,6 +33,7 @@ release = '0.1'
 extensions = [
 	'sphinx.ext.autosectionlabel',
 	'sphinx.ext.mathjax',
+	'sphinx.ext.todo'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -43,6 +44,8 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# If true, `todo` and `todoList` produce output, else they produce nothing.
+todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 
