@@ -1,7 +1,22 @@
+.. _WashingtonModelDoc:
+
 The Washington State Model
 ===========================
-The model for Washington State is based primarily on the state's water resource
-inventory areas as regions, with minor modifications.
+
+.. _WashingtonModelOverviewSection:
+
+Model Overview
+------------------
+Data collected for use in the model includes a variety of types and spans a decade (2008-2018), although only a selected
+subset (2016-2018) is used in model calibration at this time. Spatial coverage of the model is nearly the entire state, with the
+exception of some regions which lack the agricultural complexity to effectively model (see :ref:`FixedRegionsSection` for more information),
+and the spatial scale of the model is a modified version of Washington's Water Resource Inventory Areas (WRIA).
+Models are run at an annual scale, as sub-annual planting decisions cannot be captured using available data.
+
+Model input data utilizes a crop grouping structure to retain sufficient resolution in outputs while
+reducing data dependency. Initial land use surveys contain approximately 200 commodities that OpenAg groups into 14
+categories for modeling. Each category is then assigned a proxy commodity to represent the economics and water needs
+of the group. Proxies are assigned based on a combination of data availability and prominence in the overall land portfolio.
 
 .. toctree::
     input_data_sources.rst
@@ -10,8 +25,20 @@ inventory areas as regions, with minor modifications.
     :local:
     :depth: 2
 
-Crop Groups
+Land Use and Crop Groups
 ---------------
+Parcel-level land use data used in the model comes from the Washington State Department of Agriculture. The model excludes
+semi-agricultural or fishery categories such as nursery plants, shellfish, and horticulture.
+Spatial data for each year is first clipped to model designated regions. Then, crop commodities are grouped into the 14 crop
+categories in the table below. Each category is assessed to determine the most significant
+crop commodities considering a combination of both acreage and revenue, with the most significant made an economic and water
+use proxy for other commodities in the same category. The proxy commodity's economic and water use data are used in place
+of data for other commodities in the same category and all data are grouped together as one crop.
+
+Spatial cropping data contains metadata pertaining to the type of irrigation of each parcel. This information
+is used to split data between the :ref:`irrigated <IrrigatedPMPDoc>` and :ref:`non-irrigated <NonIrrigatedDoc>` models by
+region. See :ref:`IrrigatedDataSplitDoc` for more information on how OpenAg splits data between the two models.
+
 The following table shows the crops included in each crop group in OpenAg for the Washington model.
 The pipe character :code:`|` splits separate commodities, so, for example in the "Bean" row, the first
 commodity included as a bean is "Bean, Dry" and the second is "Bean, Garbanzo", etc. Any commodity not shown
@@ -121,6 +148,11 @@ Regions
     "Wenatchee", "45",
     "Willapa", "24",
     "Wind - White Salmon", "29"
+
+.. _FixedRegionsSection:
+
+Fixed Regions
+_________________
 
 
 Supported Capabilities

@@ -1,3 +1,5 @@
+.. _IrrigatedDataSplitDoc:
+
 How OpenAg Splits Data Between Irrigated and Nonirrigated Lands
 ================================================================
 By default, OpenAg uses the input data for each region to determine what data goes into the
