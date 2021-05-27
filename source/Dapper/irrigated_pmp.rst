@@ -1,4 +1,4 @@
 .. _IrrigatedPMPDoc:
 
-The Irrigated Lands PMP Model
-===============================
+The Irrigated Land Crop Choice Model
+======================================
