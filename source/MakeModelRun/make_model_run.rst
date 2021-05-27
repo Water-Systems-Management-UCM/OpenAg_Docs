@@ -72,6 +72,8 @@ ___________________________________
 Overview of Crop Modifications
 _________________________________
 
+.. image:: cropimage.png
+
 .. seealso::
     :ref:`CropModificationsDoc`
 
