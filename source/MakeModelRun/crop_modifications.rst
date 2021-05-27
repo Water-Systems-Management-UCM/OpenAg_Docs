@@ -44,12 +44,14 @@ Crop Cards support three parameters:
     value crop out of production in order to keep the high value crop in production. If you know that limited amounts
     of the low value crop will go out of production, or want to test the impact of a smaller reduction in the low value
     crop to free up resources for the higher value crop, then setting a low-end limit on that crop's crop area restriction
-    limits the model's ability to remove it from production.
+    limits the model's ability to remove it from production. Crop area restrictions are not used in the :ref:`nonirrigated lands model <NonIrrigatedDoc>`.
 
 Crop area restrictions should be used with care. Since they create a hard constraint in the model, misconfiguration of
 these constraints can lead to infeasible model runs. For example, setting all crops to a minimum crop area restriction
 of 100% while reducing resource availability such as water or land is likely to result in an infeasible model run since
 the model will not be able to take crops out of production to satisfy model conditions.
+
+For a table showing which parameters apply in the irrigated and the nonirrigated models, please see :ref:`ModelsAvailableDoc`.
 
 .. seealso::
 
@@ -87,6 +89,13 @@ glance see which cards have been added without adjustment and which cards you ha
 Region-Linked Crops
 ----------------------
 
+.. figure:: region_linked_crop.png
+
+    Crop information can be specified per-region by "Region-linking" individual crop cards so that the parameters
+    on the card apply only to the crop when grown in that region.
+
+Typically, adding crop modification cards for specific crops results in changes to the values for that crop in every
+region the crop is grown in.
 
 Additional Reading on Modifications
 -------------------------------------------

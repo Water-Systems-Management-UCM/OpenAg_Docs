@@ -8,6 +8,7 @@ a statistical regression model that estimates yield based on changes in rainfall
     :maxdepth: 2
     :caption: Contents
 
+    available_models.rst
     input_data.rst
     irrigated_pmp.rst
     nonirrigated.rst
