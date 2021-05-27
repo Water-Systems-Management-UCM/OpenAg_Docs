@@ -16,12 +16,14 @@ OpenAg Documentation
    Troubleshooting/troubleshooting.rst
    Changelog/changelog.rst
 
-Documentation PDF
------------------------
+Documentation Downloads and PDF
+----------------------------------
 
 `The latest PDF of this documentation can be found here <https://github.com/ucm-openag/OpenAg_Docs/raw/release/openag_docs.pdf>`_.
 The HTML documentation is the most up to date - PDF copies can lag behind because they are manually built and may not include
-all the most recent changes.
+all the most recent changes. More current PDF versions, epub downloads, or downloads of the HTML version can be found by
+clicking the button in the bottom right of this page that says :code:`v: latest`. These are automatically built and not
+checked for accuracy or errors.
 
 Suggestions or Contributions to the Documentation
 ------------------------------------------------------
