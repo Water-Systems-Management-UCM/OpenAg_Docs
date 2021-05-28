@@ -17,6 +17,10 @@ Model input data utilizes a crop grouping structure to retain sufficient resolut
 reducing data dependency. Initial land use surveys contain approximately 200 commodities that OpenAg groups into 14
 categories for modeling. Each category is then assigned a proxy commodity to represent the economics and water needs
 of the group. Proxies are assigned based on a combination of data availability and prominence in the overall land portfolio.
+For example, imagine a category "vegetable" that includes onions, carrots, and tomato. If carrot is by far the most prominent
+of the three (90% acreage) then we treat that entire category of land use as though it was carrots for the price,
+yield, costs, and water demand. This approach is necessary because with so many commodities data and time are not available
+to model every individual crop.
 
 .. toctree::
     :maxdepth: 2

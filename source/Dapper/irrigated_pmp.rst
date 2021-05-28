@@ -12,7 +12,7 @@ in crop selection. The approach is consistent with profit maximizing behaviour i
 served as the backbone for economic impact assessment of droughts (`Medellin-Azuara et al. 2015 <https://link.springer.com/article/10.1007/s10040-015-1283-9>`_
 , `Lund et al. 2017 <https://ascelibrary.org/doi/full/10.1061/%28ASCE%29WR.1943-5452.0000984>`_),
 climate change (`Medellin-Azuara et al. 2011 <https://link.springer.com/article/10.1007/s10584-011-0314-3>`_),
-and groundwater regulation (Hanak et al. 2019), among other applications.
+and groundwater regulation (`Hanak et al. 2019 <https://www.ppic.org/wp-content/uploads/water-and-the-future-of-the-san-joaquin-valley-overview.pdf>`_), among other applications.
 
 .. contents::
     :local:
@@ -69,23 +69,27 @@ Mathematical model formulation
 The calibrated model predicts farmer’s crop decisions including on irrigated cropland use and use of inputs including
 water within an island assuming profit maximizing behavior considering expected prices, subsidies, yields, and costs,
 as well as restrictions on land, water and crop specific constraints. This is undertaken by solving the non-linear
-program described by equations 1 to 3 below for each region *g*:
+program described by equations :math:numref:`eq1` to :math:numref:`eq3` below for each region *g*:
 
-.. math::
-    Max Z= \sum_{i}{p_{i}Y_{gi}(X_{gij})} - \sum_{i}{\delta_{gi}X_{gi,land}} - \sum_{i}{}\sum_{j}{\omega_{gij}X_{gij}}
+.. math:: Max Z= \sum_{i}{p_{i}Y_{gi}(X_{gij})} - \sum_{i}{\delta_{gi}X_{gi,land}} - \sum_{i}{}\sum_{j}{\omega_{gij}X_{gij}}
+    :label: eq1
 
-.. math::
-    \sum_{i}{X_{i,land} \le B_{g,land}}
+.. math:: \sum_{i}{X_{i,land} \le B_{g,land}}
+    :label: eq2
 
-.. math::
-    \sum_{i}{X_{i,water} \le B_{g,water}}
+.. math:: \sum_{i}{X_{i,water} \le B_{g,water}}
+    :label: eq3
 
-Individual regions *g* are assumed to freely trade water . Details on the full program are described in `Howitt et al. (2012) <https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016WR019639>`_.
+Individual regions *g* are assumed to freely trade water. Details on the full program are described in `Howitt et al. (2012) <https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016WR019639>`_.
 
 
 References
 --------------
 
-* Hanak, Ellen, Alvar Escriva-Bou, Brian Gray, Sarge Green, Thomas Harter, Jelena Jezdimirovic, Jay Lund, Josué Medellín-Azuara, Peter Moyle, and Nathaniel Seavy. 2019. "`Water and the Future of the San Joaquin Valley: Overview <https://www.ppic.org/wp-content/uploads/water-and-the-future-of-the-san-joaquin-valley-overview.pdf>`_," February, 16. https://www.ppic.org/wp-content/uploads/water-and-the-future-of-the-san-joaquin-valley-overview.pdf
-* Lund, Jay, Dist M Asce, Josue Medellin-azuara, M Asce, John Durand, and Kathleen Stone. 2018. "`Lessons from California’s 2012 – 2016 Drought <https://doi.org/10.1061/(ASCE)WR.1943-5452.0000984>`_" 144 (10): 1–13. https://doi.org/10.1061/(ASCE)WR.1943-5452.0000984.
-* Medellín-Azuara, Josué, Richard E. Howitt, Duncan J. MacEwan, and Jay R. Lund. 2011. "`Economic Impacts of Climate-Related Changes to California Agriculture <https://doi.org/10.1007/s10584-011-0314-3>`_." Climatic Change 109 (1): 387–405. https://doi.org/10.1007/s10584-011-0314-3.
+* Hanak, Ellen, Alvar Escriva-Bou, Brian Gray, Sarge Green, Thomas Harter, Jelena Jezdimirovic, Jay Lund, Josué Medellín-Azuara, Peter Moyle, and Nathaniel Seavy. 2019. "`Water and the Future of the San Joaquin Valley: Overview <https://www.ppic.org/wp-content/uploads/water-and-the-future-of-the-san-joaquin-valley-overview.pdf>`_," February, 16.
+* Howitt, Richard E. 1995. "`A Calibration Method for Agricultural Economic Production Models <https://doi.org/10.1111/j.1477-9552.1995.tb00762.x>`_." Journal of Agricultural Economics 46 (2): 147–59.
+* Howitt, Richard E., Josué Medellín-Azuara, Duncan MacEwan, and Jay R. Lund. 2012. "`Calibrating Disaggregate Economic Models of Agricultural Production and Water Management <https://doi.org/10.1016/j.envsoft.2012.06.013>`_." Environmental Modelling & Software 38 (December): 244–58.
+* Lund, Jay, Dist M Asce, Josué Medellín-Azuara, M Asce, John Durand, and Kathleen Stone. 2018. "`Lessons from California’s 2012 – 2016 Drought <https://doi.org/10.1061/(ASCE)WR.1943-5452.0000984>`_" 144 (10): 1–13.
+* Medellín-Azuara, Josué, Richard E. Howitt, Duncan J. MacEwan, and Jay R. Lund. 2011. "`Economic Impacts of Climate-Related Changes to California Agriculture <https://doi.org/10.1007/s10584-011-0314-3>`_." Climatic Change 109 (1): 387–405.
+* Medellín-Azuara, Josué, Duncan MacEwan, Richard E. Howitt, George Koruakos, Emin C. Dogrul, Charles F. Brush, Tariq N. Kadir, Thomas Harter, Forrest Melton, and Jay R. Lund. 2015. "`Hydro-Economic Analysis of Groundwater Pumping for Irrigated Agriculture in California’s Central Valley, USA <https://doi.org/10.1007/s10040-015-1283-9>`_." Hydrogeology Journal 23 (6): 1205–16.
+
