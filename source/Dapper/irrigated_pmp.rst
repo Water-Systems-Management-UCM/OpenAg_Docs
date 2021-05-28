@@ -27,6 +27,8 @@ land and/or water availability, crop prices or yields. For example, if there is 
 to drought, the model will likely cultivate first those crops that provide the highest net returns and are less water
 intensive.
 
+.. _WaterExchangeSection:
+
 Water Exchange
 ----------------
 In addition to the resource-constrained profit maximizing behavior, the PMP crop choice model assumes water trading
@@ -39,6 +41,8 @@ Both land and water are the limiting factors in the model. In the current settin
 labor is unlimited and so is access to crop production supplies such as fertilizer and agrochemicals. There is an implicit
 assumption of no irrigated area expansion in the current setting, yet this constraint can be changed to some plausible
 extent (e.g. 10 percent) within the model calibration range.
+
+.. _CropPriceYieldSection:
 
 Crop Prices and Yields
 -------------------------
