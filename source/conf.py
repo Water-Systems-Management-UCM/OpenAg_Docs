@@ -13,6 +13,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+# we import this to modify image handling - see further down
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
@@ -46,6 +48,9 @@ exclude_patterns = []
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# include numbering for figures
+numfig = True
 
 # -- Options for HTML output -------------------------------------------------
 

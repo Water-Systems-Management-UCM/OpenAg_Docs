@@ -63,10 +63,12 @@ to the point of use. The same constraint can be employed for other crop categori
 
 Deficit Irrigation
 -----------------------
-The calibrated model allocates water based on average observed water use per unit area. However under water scarcity
-conditions, many irrigated areas around the world practice deficit irrigation which saves water with some sacrifice
-of crop yields. Default settings allow 1% deficit irrigation but it is possible to increase such deficit to some extent
-within the base calibration range to optimize crop water use.
+The calibrated model allocates water based on average observed water use per unit area. However, under water scarcity
+conditions, many irrigated areas around the world practice deficit irrigation, where growers apply less water than
+necessary to achieve ideal yields in order to grow a larger acreage with limited water. This practice extends a
+limited amount of water to more crop acreage, but with some sacrifice of crop yields. The OpenAg model settings
+allow up to 1% deficit irrigation, meaning that any significant reductions in water
+availability will lead to changes in crop acreage rather than reducing crop yields.
 
 Mathematical model formulation
 --------------------------------
