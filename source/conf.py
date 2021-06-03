@@ -26,6 +26,9 @@ author = 'UC Merced Water Systems Management Lab, Vicelab, and the Center for In
 # The full version, including alpha/beta/rc tags
 release = '0.2'
 
+# rst_epilogs get appended to pages - currently, we're adding the ability to reference the project name as a variable in pages
+rst_epilog = '.. |project_name| replace:: {}'.format(project)
+
 
 # -- General configuration ---------------------------------------------------
 

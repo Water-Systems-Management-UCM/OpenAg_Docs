@@ -1,7 +1,8 @@
-The Sacramento San-Joaquin Delta Model
+.. _SacramentoSanJoaquinModelDoc:
+The Sacramento-San Joaquin Delta Model
 ========================================
 
-The Sacramento San-Joaquin Delta (Delta) occurs at the confluence of the two
+The Sacramento-San Joaquin Delta (Delta) occurs at the confluence of the two
 eponymous rivers and is a crucial cornerstone of water resource management in
 California. While important in supporting agriculture throughout the state by conveying
 water to key regions, the Delta itself hosts significant production of select crops, namely
