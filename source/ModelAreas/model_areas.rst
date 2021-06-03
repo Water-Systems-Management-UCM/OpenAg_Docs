@@ -1,10 +1,10 @@
 .. _ModelAreasDoc:
 
-Modeled Areas in OpenAg
+Modeled Areas in |project_name|
 =========================
-Each distinct model in OpenAg is called a :code:`Model Area`, encompassing
+Each distinct model in |project_name| is called a :code:`Model Area`, encompassing
 regions, crop groups, and calibrated input data for the model. As of May 2021,
-OpenAg supports two model areas:
+|project_name| supports two model areas:
 
 .. toctree::
     :maxdepth: 2

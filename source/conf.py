@@ -13,6 +13,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+# we import this to modify image handling - see further down
 from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
@@ -23,6 +25,9 @@ author = 'UC Merced Water Systems Management Lab, Vicelab, and the Center for In
 
 # The full version, including alpha/beta/rc tags
 release = '0.2'
+
+# rst_epilogs get appended to pages - currently, we're adding the ability to reference the project name as a variable in pages
+rst_epilog = '.. |project_name| replace:: {}'.format(project)
 
 
 # -- General configuration ---------------------------------------------------
@@ -46,6 +51,9 @@ exclude_patterns = []
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# include numbering for figures
+numfig = True
 
 # -- Options for HTML output -------------------------------------------------
 

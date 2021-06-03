@@ -55,7 +55,8 @@ For a table showing which parameters apply in the irrigated and the nonirrigated
 
 .. seealso::
 
-    :ref:`DiagnosingInfeasibleRunsSection`
+    * :ref:`See how price and yield values are used in the irrigated land model <CropPriceYieldSection>`
+    * :ref:`DiagnosingInfeasibleRunsSection`
 
 .. _AutomaticAdditionCropModificationsSection:
 
@@ -96,6 +97,8 @@ Region-Linked Crops
 
 Typically, adding crop modification cards for specific crops results in changes to the values for that crop in every
 region the crop is grown in.
+
+.. _AdditionalReadingCropModificationsSection:
 
 Additional Reading on Modifications
 -------------------------------------------
