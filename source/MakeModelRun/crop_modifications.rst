@@ -96,7 +96,26 @@ Region-Linked Crops
     on the card apply only to the crop when grown in that region.
 
 Typically, adding crop modification cards for specific crops results in changes to the values for that crop in every
-region the crop is grown in.
+region the crop is grown in. Crop cards can be limited so that the card's parameters only apply in a single region through
+a process called "region linking". In the "Advanced" section of a crop card, you may choose the region the crop card
+should apply to under the "Link to Region" selection item. After choosing a region, the card will include a blue
+banner on the left to signify that it is a region-linked card, and the title will change to include the crop name as
+well as the region name.
+
+Once created, all parameters on the card will only apply in the specific region. If you wish to create separate settings
+for other regions for the same crop, add the original crop card again and specify another region on it. If you wish
+to specify separate settings for the crop in all other regions the crop is grown in after creating region-linked cards,
+simply add the main crop card again. Take care that the list of cards is sorted after every card is added, so when
+region-linking a card, double check that the crop card you change next is the one you intend to adjust.
+
+For example,
+if you wish to provide separate settings for All Crops, Apples statewide, and Apples in region A and region B, you would
+add the Apples card, link it to region A and change the settings for that card. Then, add the Apples card again and link
+it to region B, then change the settings on that card to apply to region B. Finally, add the Apples card a third time
+and change the settings to apply to all regions in the model area that grow Apples *except* for regions A and B.
+
+If you change your mind and wish to remove the region-link, simply remove the entire card. You may still add the main
+crop commodity's card both before and after removal of a region-linked card.
 
 .. _AdditionalReadingCropModificationsSection:
 

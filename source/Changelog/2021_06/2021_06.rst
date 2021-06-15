@@ -1,0 +1,26 @@
+Visual Changelog - June 2021
+============================
+
+.. toctree::
+   :maxdepth: 1
+   :caption: OpenAg Changes for June 2021:
+
+Provide Region-Level Crop Commodity Details When Creating Models
+------------------------------------------------------------------
+.. figure:: ../../MakeModelRun/region_linked_crop.*
+
+    You can now provide region-specific crop inputs from crop cards. See :ref:`RegionLinkedCropsSection` for more
+    details.
+
+Bugfix: Max Land Area Proportion shows as Zero in Input viewer
+-----------------------------------------------------------------
+The application included a bug where, when no upper limit was provided for a specific crop's land area constraint,
+it was saved as an upper limit of 0. This is cosmetic and was ignored by the model. Some model runs may still show
+upper limits on land area of 0, but their results remain correct. New model runs will correctly indicate "no limit"
+in these instances.
+
+Gross Revenue Sums Available in all Model Areas
+------------------------------------------------
+Previously, sums of gross revenue across an entire model run were only available when |project_name| included
+employment data for a model area. Now they are available on the Summary tab of the results viewer for all model areas.
+The sums take into account active filters, allowing you to see the value for groups of regions, crops, etc.

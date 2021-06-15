@@ -11,4 +11,5 @@ Changelogs are structured by month, so you can click into any month to see detai
     :maxdepth: 2
     :caption: Changes by Month:
 
+    2021_06/2021_06.rst
     2021_05/2021_05.rst

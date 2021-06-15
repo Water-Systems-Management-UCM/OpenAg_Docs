@@ -44,7 +44,7 @@ _______________________________
 
 Crop Modification Hierarchy
 ____________________________________
-#. Region-linked crop value:
+#. :ref:`Region-linked crop value <RegionLinkedCropsSection>`:
     Specific crop cards that have been linked to a single region take the highest priority for crop parameters and will
     be used when present.
 #. Specific crop value:
