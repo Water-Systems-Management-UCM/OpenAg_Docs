@@ -5,6 +5,16 @@ Visual Changelog - June 2021
    :maxdepth: 1
    :caption: OpenAg Changes for June 2021:
 
+Default Region Modeling Behavior and Change-able Behaviors
+-------------------------------------------------------------
+.. figure:: ../../MakeModelRun/region_card_advanced.*
+
+    Regions can now use the :ref:`Full PMP model <IrrigatedPMPDoc>`, a :ref:`Simple model <SimpleModelingDoc>`
+    that assumes no trading (new), or No Production. :ref:`Regions can
+    also have default behaviors <DefaultAdvancedRegionOptionsSection>`, so some regions will default to the Simple model
+    - when they do, you'll see that choice
+    made in the Advanced section of a crop card.
+
 Provide Region-Level Crop Commodity Details When Creating Models
 ------------------------------------------------------------------
 .. figure:: ../../MakeModelRun/region_linked_crop.*

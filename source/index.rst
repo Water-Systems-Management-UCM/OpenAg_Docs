@@ -36,6 +36,9 @@ Suggestions or Contributions to the Documentation
 If you have a suggestion for the documentation or a question not answered in the documentation, please
 `start a discussion on GitHub <https://github.com/ucm-openag/OpenAg_Docs/discussions/categories/ideas>`_.
 
+Suggested Citation
+--------------------
+Santos et al, 2021 - full citation forthcoming
 
 .. image:: _static/images/home_image.png
 
