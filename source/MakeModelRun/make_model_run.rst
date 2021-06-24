@@ -94,6 +94,8 @@ You may create cards in two ways:
 Overview of Region Modifications
 ___________________________________
 
+.. todo:: fill in
+
 ..
     .. image:: RegionModifications.png
 
@@ -102,6 +104,8 @@ ___________________________________
 
 Overview of Crop Modifications
 _________________________________
+
+.. todo:: fill in
 
 ..
     .. image:: cropimage.png
@@ -132,6 +136,8 @@ e.g. what can we actually change or control in the application
 
 Summary and Review
 --------------------
+
+.. todo:: fill in
 
 Additional Reading on Model Run Creation
 -------------------------------------------
