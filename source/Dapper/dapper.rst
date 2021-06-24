@@ -38,6 +38,7 @@ Please see the following articles for additional details on how these models wor
     input_data.rst
     irrigated_pmp.rst
     nonirrigated.rst
+    linear_scaling.rst
     outputs.rst
     model_limitations.rst
     irrigated_nonirrigated_data_split.rst

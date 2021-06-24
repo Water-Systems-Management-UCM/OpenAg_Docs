@@ -36,87 +36,96 @@ to model every individual crop.
 
 Regions
 ----------
-.. figure:: WA_map_fixed_regions.jpg
+.. figure:: WA_modeling_behavior_sm.png
 
-    Regions used in the Washington model along with how they are handled, as modeled regions, or
-    fixed regions that are scaled linearly by default rather than modeled.
+    Regions used in the Washington model along with how they are handled by default, as :ref:`Full modeled regions <IrrigatedPMPDoc>`,
+    or :ref:`Simple modeled regions <SimpleModelingDoc>` that are scaled linearly by default rather than PMP modeled.
 
 .. csv-table::
-    :header: "Region Name", "WRIA Region ID"
+    :header: "Region Name", "WRIA Region ID", "Default Modeling Behavior"
 
-    "Alkali - Squilchuck", "40",
-    "Cedar - Sammamish", "8",
-    "Chambers - Clover", "12",
-    "Chelan", "47",
-    "Colville", "59",
-    "Cowlitz", "26",
-    "Deschutes", "13",
-    "Duwamish - Green", "9",
-    "Elwha - Dungeness", "18",
-    "Entiat", "46",
-    "Esquatzel Coulee", "36",
-    "Foster", "50",
-    "Grand Coulee", "42",
-    "Grays - Elochoman", "25",
-    "Hangman", "56",
-    "Island", "6",
-    "Kennedy - Goldsborough", "14",
-    "Kettle", "60",
-    "Kitsap", "15",
-    "Klickitat", "30",
-    "Lewis", "27",
-    "Little Spokane", "55",
-    "Lower Chehalis", "22",
-    "Lower Crab", "41",
-    "Lower Lake Roosevelt", "53",
-    "Lower Skagit - Samish", "3",
-    "Lower Snake", "33",
-    "Lower Spokane", "54",
-    "Lower Yakima (Kennewick ID)", "37-KID",
-    "Lower Yakima (Roza ID)", "37-RID",
-    "Lower Yakima (Sunnyside Valley ID)", "37-SVID",
-    "Lower Yakima (Wapato Irrigation Project)", "37-WIP",
-    "Lyre - Hoko", "19",
-    "Methow", "48",
-    "Middle Lake Roosevelt", "58",
-    "Middle Snake", "35",
-    "Middle Spokane", "57",
-    "Moses Coulee", "44",
-    "Naches (Yakima-Tieton ID)", "38-YTID",
-    "Nespelem", "51",
-    "Nisqually", "11",
-    "Nooksack", "1",
-    "Okanogan", "49",
-    "Palouse", "34",
-    "Pend Oreille", "62",
-    "Puyallup - White", "10",
-    "Queets - Quinault", "21",
-    "Quilcene - Snow", "17",
-    "Rock - Glade", "31",
-    "Salmon - Washougal", "28",
-    "San Juan", "2",
-    "Sanpoil", "52",
-    "Skokomish - Dosewallips", "16",
-    "Snohomish", "7",
-    "Soleduc", "20",
-    "Stillaguamish", "5",
-    "Upper Chehalis", "23",
-    "Upper Crab-Wilson", "43",
-    "Upper Lake Roosevelt", "61",
-    "Upper Skagit", "4",
-    "Upper Yakima (Ellensberg Area)", "39-EW",
-    "Upper Yakima (Kittitas RD)", "39-KRD",
-    "Walla Walla", "32",
-    "Wenatchee", "45",
-    "Willapa", "24",
-    "Wind - White Salmon", "29"
+    "Alkali - Squilchuck", "40", "Full"
+    "Cedar - Sammamish", "8", "Simple"
+    "Chambers - Clover", "12", "Simple"
+    "Chelan", "47", "Full"
+    "Colville", "59", "Full"
+    "Cowlitz", "26", "Full"
+    "Deschutes", "13", "Simple"
+    "Duwamish - Green", "9", "Simple"
+    "Elwha - Dungeness", "18", "Simple"
+    "Entiat", "46", "Full"
+    "Esquatzel Coulee", "36", "Full"
+    "Foster", "50", "Full"
+    "Grand Coulee", "42", "Full"
+    "Grays - Elochoman", "25", "Simple"
+    "Hangman", "56", "Full"
+    "Island", "6", "Simple"
+    "Kennedy - Goldsborough", "14", "Simple"
+    "Kettle", "60", "Simple"
+    "Kitsap", "15", "Simple"
+    "Klickitat", "30", "Full"
+    "Lewis", "27", "Simple"
+    "Little Spokane", "55", "Full"
+    "Lower Chehalis", "22", "Full"
+    "Lower Crab", "41", "Full"
+    "Lower Lake Roosevelt", "53", "Full"
+    "Lower Skagit - Samish", "3", "Full"
+    "Lower Snake", "33", "Full"
+    "Lower Spokane", "54", "Full"
+    "Lower Yakima (Kennewick ID)", "37-KID", "Full"
+    "Lower Yakima (Roza ID)", "37-RID", "Full"
+    "Lower Yakima (Sunnyside Valley ID)", "37-SVID", "Full"
+    "Lower Yakima (Wapato Irrigation Project)", "37-WIP", "Full"
+    "Lyre - Hoko", "19", "Simple"
+    "Methow", "48", "Full"
+    "Middle Lake Roosevelt", "58", "Simple"
+    "Middle Snake", "35", "Full"
+    "Middle Spokane", "57", "Simple"
+    "Moses Coulee", "44", "Full"
+    "Naches (Yakima-Tieton ID)", "38-YTID", "Full"
+    "Nespelem", "51", "Simple"
+    "Nisqually", "11", "Simple"
+    "Nooksack", "1", "Full"
+    "Okanogan", "49", "Full"
+    "Palouse", "34", "Full"
+    "Pend Oreille", "62", "Simple"
+    "Puyallup - White", "10", "Simple"
+    "Queets - Quinault", "21", "Insufficient Ag Land"
+    "Quilcene - Snow", "17", "Simple"
+    "Rock - Glade", "31", "Full"
+    "Salmon - Washougal", "28", "Full"
+    "San Juan", "2", "Simple"
+    "Sanpoil", "52", "Simple"
+    "Skokomish - Dosewallips", "16", "Simple"
+    "Snohomish", "7", "Full"
+    "Soleduc", "20", "Simple"
+    "Stillaguamish", "5", "Simple"
+    "Upper Chehalis", "23", "Full"
+    "Upper Crab-Wilson", "43", "Full"
+    "Upper Lake Roosevelt", "61", "Simple"
+    "Upper Skagit", "4", "Simple"
+    "Upper Yakima (Ellensberg Area)", "39-EW", "Full"
+    "Upper Yakima (Kittitas RD)", "39-KRD", "Full"
+    "Walla Walla", "32", "Full"
+    "Wenatchee", "45", "Full"
+    "Willapa", "24", "Full"
+    "Wind - White Salmon", "29", "Simple"
 
 .. _FixedRegionsSection:
 
-Fixed Regions
-_________________
+Default Modeling Behavior
+________________________
+Some regions in the Washington model use |project_name|'s :ref:`Simple model <SimpleModelingDoc>` by default in order to produce the best results.
+These regions were identified as having a small amount of agriculture relative to the state's total, and using the Full
+PMP model could result in wider fluctuations in results when significant input modifications are made. The table and map
+above indicate how each region is handled by default in |project_name|.
 
-.. todo:: fill in
+The primary criteria used in determining how each region is handled is its proportion of agricultural land and revenues
+relative to the state's totals. Region land and revenue were ordered by size and the regions that cumulatively resulted
+in less than 5 percent of land use and less than 2 percent of revenue for the state were identified for further analysis.
+Regions that fall into both groups use the Simple model by default, with the exceptions of WRIAS 22 (Lower Chehalis), 24
+(Willapa), 27 (Lewis), and 28 (Salmon - Washougal), who had significant caneberry production that would have resulted in
+more variability if left in the Simple model by default.
 
 Supported Capabilities
 ------------------------
