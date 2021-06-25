@@ -31,8 +31,10 @@ Documentation Downloads and PDF
 * `Download HTML <https://openag-docs.readthedocs.io/_/downloads/en/latest/htmlzip/>`_
 * `Download EPub <https://openag-docs.readthedocs.io/_/downloads/en/latest/epub/>`_
 
+
 Suggestions, Bugs, or Contributions to the Documentation
-------------------------------------------------------
+-------------------------------------------------------------
+
 * If you have a suggestion for the documentation or a question not answered in the documentation, please
 `start a discussion on GitHub <https://github.com/ucm-openag/OpenAg_Docs/discussions/categories/ideas>`_.
 * If you identify a bug, please `reach out on GitHub to file an issue <https://github.com/Water-Systems-Management-UCM/Waterspout/issues>`_.

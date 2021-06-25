@@ -11,9 +11,15 @@ Overview
 ----------
 Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
 of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
-for the :ref:`model area <ModelAreaConceptSection>`). By default, crop modification :ref:`cards <CardsConceptSection>` apply to data for the crop within every
-:ref:`region <RegionConceptSection>` where the crop is present, though it is possible to specify crop parameters
-per-region (see :ref:`RegionLinkedCropsSection`)
+for the :ref:`model area <ModelAreaConceptSection>`).
+
+In addition to the differing parameters region modification :ref:`cards <CardsConceptSection>` apply differently
+than :ref:`crop modification cards <CropModificationsDoc>` in that crop cards apply to the same crop in all regions where it is grown, but parameters on region cards
+apply to all crops grown in one single region. Importantly, the region card parameters for land area and irrigation water
+availability can be thought of as providing both inputs *and* outputs to the model. The region card allows you to specify
+the total amounts available for each parameter within the region, and then the model apportions each resource (land, irrigation
+water) amongst the crops, resulting in the per-crop outputs for land and irrigation water in the region.
+
 .. _RegionModificationsParametersSection:
 
 Parameters
