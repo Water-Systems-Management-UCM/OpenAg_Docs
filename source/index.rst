@@ -12,7 +12,7 @@ into a set of regions with input data that are modeled independently.
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Documentation Contents:
 
    core_concepts.rst
