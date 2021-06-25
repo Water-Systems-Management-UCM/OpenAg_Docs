@@ -1,5 +1,6 @@
 .. _SimpleModelingDoc:
-"Simple" Modeling and Linear Scaling
+
+Simple Modeling and Linear Scaling
 =======================================
 
 |project_name| includes a simplified modeling mode for regions where

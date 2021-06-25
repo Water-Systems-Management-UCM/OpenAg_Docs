@@ -114,7 +114,7 @@ Regions
 .. _FixedRegionsSection:
 
 Default Modeling Behavior
-________________________
+____________________________
 Some regions in the Washington model use |project_name|'s :ref:`Simple model <SimpleModelingDoc>` by default in order to produce the best results.
 These regions were identified as having a small amount of agriculture relative to the state's total, and using the Full
 PMP model could result in wider fluctuations in results when significant input modifications are made. The table and map

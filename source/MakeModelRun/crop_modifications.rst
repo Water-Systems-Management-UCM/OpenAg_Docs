@@ -11,7 +11,8 @@ Overview
 ----------
 Crop modifications are the second step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
 of crop-specific parameters. By default, crop modification :ref:`cards <CardsConceptSection>` apply to data for the crop within every
-:ref:`region <RegionConceptSection>` where the crop is present, though it is possible to specify crop parameters per-region (see :ref:`RegionLinkedCropsSection`)
+:ref:`region <RegionConceptSection>` where the crop is present, though it is possible to specify crop parameters
+per-region (see :ref:`RegionLinkedCropsSection`)
 
 .. _CropModificationParametersSection:
 

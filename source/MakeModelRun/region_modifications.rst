@@ -9,7 +9,11 @@ Region Modifications
 
 Overview
 ----------
-
+Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
+of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
+for the :ref:`model area <ModelAreaConceptSection>`). By default, crop modification :ref:`cards <CardsConceptSection>` apply to data for the crop within every
+:ref:`region <RegionConceptSection>` where the crop is present, though it is possible to specify crop parameters
+per-region (see :ref:`RegionLinkedCropsSection`)
 .. _RegionModificationsParametersSection:
 
 Parameters
@@ -36,12 +40,14 @@ that adjust how the region is modeled. Since each region is modeled independentl
 given region without affecting the output of another region.
 
 #. Full:
-    The default behavior - the region will be run through the :ref:`full PMP model <IrrigatedPMPDoc>` and, when applicable, through the nonirrigated agricultural yield model.
+    The default behavior for most regions and model areas. When the Full option is selected, the region will be run
+    through the :ref:`PMP model <IrrigatedPMPDoc>` and, when applicable, through the nonirrigated agricultural yield model.
 #. Simple:
     In some cases, you may not want to make the assumptions that the full PMP model makes - in this case, the "simple"
     option prevents them from being modeled in the PMP formulation, and instead assumes a linear scaling of values based
     upon modifications in the input. See :ref:`SimpleModelingDoc` for more information on how the region will be modeled
-    when choosing this option.
+    when choosing this option. As of June 2021, using the Simple model will still run the nonirrigaged model separately for
+    crops and regions that have data available, but this behavior may change in the future.
 #. No Production:
     Use this if you want to model the region as if it produced nothing over the model time period. In the
     San Francisco Bay Delta, for example, this can be useful for scenarios where an island floods and produces
@@ -55,6 +61,7 @@ while other regions will apply crop modifications as normal.
 .. image:: region_card_advanced.png
 
 .. _DefaultAdvancedRegionOptionsSection:
+
 Default Advanced Region Options
 __________________________________
 In some cases, when choosing a region, one of the advanced region options may show up as chosen by default for that region.
