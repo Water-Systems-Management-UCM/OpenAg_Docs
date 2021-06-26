@@ -42,7 +42,7 @@ Suggestions, Bugs, or Contributions to the Documentation
 
 Suggested Citation
 --------------------
-Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José Manuel Rodriguez, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara et al. OpenAg Documentation. 2021. https:///openag-docs.readthedocs.io
+Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara. OpenAg Documentation. 2021. https:///openag-docs.readthedocs.io
 
 .. image:: _static/images/home_image.png
 

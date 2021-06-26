@@ -19,15 +19,23 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 
 # -- Project information -----------------------------------------------------
 
-project = 'OpenAg'
-copyright = '2021, UC Merced Water Systems Management Lab,\n Vicelab, and the Center for Information\n Technology Research in the Interest of Society'
-author = 'UC Merced Water Systems Management Lab,\n Vicelab, and the Center for Information\n Technology Research in the Interest of Society'
+project_name = 'OpenAg'  # for replacement in the documentation
+# rst_epilogs get appended to pages - currently, we're adding the ability to reference the project name as a variable in pages
+rst_epilog = '.. |project_name| replace:: {}'.format(project_name)
+
+project = "OpenAg Documentation"  # for sphinx
+copyright = '2021, Regents of the University of California'
+author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara for ' \
+         'the Water Systems Management Lab and Vicelab at the University of California, Merced'
+latex_author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, \\\\' \
+               'José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, \\\\' \
+               'and Josué Medellín-Azuara for the Water Systems Management \\\\' \
+               'Lab and Vicelab at the University of California, Merced'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
 
-# rst_epilogs get appended to pages - currently, we're adding the ability to reference the project name as a variable in pages
-rst_epilog = '.. |project_name| replace:: {}'.format(project)
+latex_documents = [("index", "openag_documentation.tex", project, latex_author, "manual", False),]
 
 
 # -- General configuration ---------------------------------------------------
