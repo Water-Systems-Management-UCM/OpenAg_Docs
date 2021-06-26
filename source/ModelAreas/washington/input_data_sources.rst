@@ -24,7 +24,7 @@ The following table summarizes data sources used for defining model inputs for t
 
 
 Land Use and Crop Groups
----------------
+---------------------------
 Parcel-level land use data used in the model comes from the Washington State Department of Agriculture. The model excludes
 semi-agricultural or fishery categories such as nursery plants, shellfish, and horticulture.
 Spatial data for each year is first clipped to model designated regions. Then, crop commodities are grouped into the 14 crop
@@ -69,90 +69,6 @@ in the table is not included in the model.
     POTATO,Potato
     VEGETABLE,"Artichoke  |  Asparagus  |  Beet  |  Broccoli  |  Brussels Sprouts  |  Cabbage  |  Cantaloupe  |  Carrot  |  Cauliflower  |  Cucumber  |  Garlic  |  Kale  |  Kiwi  |  Leek  |  Lettuce  |  Market Crops  |  Melon, Unknown  |  Onion  |  Peanut  |  Pumpkin  |  Radish  |  Rhubarb  |  Rutabaga  |  Spinach  |  Squash  |  Sugar Beet  |  Tomato  |  Vegetable, Unknown  |  Watermelon"
 
-
-Regions
-----------
-.. figure:: WA_map_fixed_regions.jpg
-
-    Regions used in the Washington model along with how they are handled, as modeled regions, or
-    fixed regions that are scaled linearly by default rather than modeled.
-
-.. csv-table::
-    :header: "Region Name", "WRIA Region ID"
-
-    "Alkali - Squilchuck", "40",
-    "Cedar - Sammamish", "8",
-    "Chambers - Clover", "12",
-    "Chelan", "47",
-    "Colville", "59",
-    "Cowlitz", "26",
-    "Deschutes", "13",
-    "Duwamish - Green", "9",
-    "Elwha - Dungeness", "18",
-    "Entiat", "46",
-    "Esquatzel Coulee", "36",
-    "Foster", "50",
-    "Grand Coulee", "42",
-    "Grays - Elochoman", "25",
-    "Hangman", "56",
-    "Island", "6",
-    "Kennedy - Goldsborough", "14",
-    "Kettle", "60",
-    "Kitsap", "15",
-    "Klickitat", "30",
-    "Lewis", "27",
-    "Little Spokane", "55",
-    "Lower Chehalis", "22",
-    "Lower Crab", "41",
-    "Lower Lake Roosevelt", "53",
-    "Lower Skagit - Samish", "3",
-    "Lower Snake", "33",
-    "Lower Spokane", "54",
-    "Lower Yakima (Kennewick ID)", "37-KID",
-    "Lower Yakima (Roza ID)", "37-RID",
-    "Lower Yakima (Sunnyside Valley ID)", "37-SVID",
-    "Lower Yakima (Wapato Irrigation Project)", "37-WIP",
-    "Lyre - Hoko", "19",
-    "Methow", "48",
-    "Middle Lake Roosevelt", "58",
-    "Middle Snake", "35",
-    "Middle Spokane", "57",
-    "Moses Coulee", "44",
-    "Naches (Yakima-Tieton ID)", "38-YTID",
-    "Nespelem", "51",
-    "Nisqually", "11",
-    "Nooksack", "1",
-    "Okanogan", "49",
-    "Palouse", "34",
-    "Pend Oreille", "62",
-    "Puyallup - White", "10",
-    "Queets - Quinault", "21",
-    "Quilcene - Snow", "17",
-    "Rock - Glade", "31",
-    "Salmon - Washougal", "28",
-    "San Juan", "2",
-    "Sanpoil", "52",
-    "Skokomish - Dosewallips", "16",
-    "Snohomish", "7",
-    "Soleduc", "20",
-    "Stillaguamish", "5",
-    "Upper Chehalis", "23",
-    "Upper Crab-Wilson", "43",
-    "Upper Lake Roosevelt", "61",
-    "Upper Skagit", "4",
-    "Upper Yakima (Ellensberg Area)", "39-EW",
-    "Upper Yakima (Kittitas RD)", "39-KRD",
-    "Walla Walla", "32",
-    "Wenatchee", "45",
-    "Willapa", "24",
-    "Wind - White Salmon", "29"
-
-.. _FixedRegionsSection:
-
-Fixed Regions
-_________________
-
-.. todo:: fill in
 
 Crop Water Demand
 -------------------
