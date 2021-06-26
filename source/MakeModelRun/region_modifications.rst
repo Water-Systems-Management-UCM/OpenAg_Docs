@@ -2,6 +2,9 @@
 
 Region Modifications
 =====================
+
+On this page:
+
 .. contents::
     :local:
 
@@ -15,15 +18,35 @@ for the :ref:`model area <ModelAreaConceptSection>`).
 
 In addition to the differing parameters region modification :ref:`cards <CardsConceptSection>` apply differently
 than :ref:`crop modification cards <CropModificationsDoc>` in that crop cards apply to the same crop in all regions where it is grown, but parameters on region cards
-apply to all crops grown in one single region. Importantly, the region card parameters for land area and irrigation water
-availability can be thought of as providing both inputs *and* outputs to the model. The region card allows you to specify
-the total amounts available for each parameter within the region, and then the model apportions each resource (land, irrigation
-water) amongst the crops, resulting in the per-crop outputs for land and irrigation water in the region.
+apply to all crops grown in one single region.
+
+.. note::
+    The region card parameters for land area and irrigation water
+    availability can be thought of as providing both inputs *and* outputs to the model. The region card allows you to specify
+    the total amounts available for each parameter within the region, and then the model apportions each resource (land, irrigation
+    water) amongst the crops, resulting in the per-crop outputs for land and irrigation water in the region.
 
 .. _RegionModificationsParametersSection:
 
 Parameters
 ----------------
+Region cards provide up to three parameters. Each parameter provides the ability to adjust values relative to their
+calibrated inputs values and does not show absolute values in original units. All values are in percentages relative
+to calibrated value.
+
+#. Rainfall:
+    The |project_name| :ref:`nonirrigated lands model <NonIrrigatedDoc>` relates crop yields to amount of rainfall and
+    temperature by season. The rainfall parameter allows you to adjust the amount of rainfall for all regions or specific
+    regions between 10% and 200% of the mean value during the calibration period for the model area. This parameter only
+    shows in :ref:`model areas <ModelAreasDoc>` and regions that have nonirrigated lands. If the parameter is missing,
+    either the model area doesn't support the nonirrigated model, or the region does not have sufficient nonirrigated lands
+    in the dataset. See :ref:`IrrigatedDataSplitDoc` for more information on how |project_name| determines availability
+    of nonirrigated lands.
+#. Irrigation Availability:
+    The irrigation availability parameter adjusts irrigation water available within each region as part of the
+    :ref:`irrigated lands PMP model <IrrigatedPMPDoc>`.
+#. Land Availability:
+    text
 
 .. seealso::
     :ref:`See how region parameters are used in the irrigated land model <WaterExchangeSection>`
@@ -36,6 +59,12 @@ Creating Region Modification Cards
 Map Capabilities
 -------------------
 
+clickable to add cards
+
+shows total impact of modifications for a single parameter on the map
+
+Currently does *not* react to region modeling type.
+
 .. _AdvancedRegionOptionsSection:
 
 Advanced Region Options
@@ -44,6 +73,8 @@ When working with region cards, you have the option to change advanced settings 
 "Advanced" expansion panel at the bottom of the card. The advanced settings give you three options
 that adjust how the region is modeled. Since each region is modeled independently, you can change these settings for any
 given region without affecting the output of another region.
+
+.. image:: region_card_advanced.png
 
 #. Full:
     The default behavior for most regions and model areas. When the Full option is selected, the region will be run
@@ -63,8 +94,6 @@ given region without affecting the output of another region.
 Note that these are high priority settings in that they take first precedence. A region held to base case will not
 be affected by the crop modification settings you choose. Results will appear exactly as in the base case for that region,
 while other regions will apply crop modifications as normal.
-
-.. image:: region_card_advanced.png
 
 .. _DefaultAdvancedRegionOptionsSection:
 

@@ -20,11 +20,11 @@ from sphinx.builders.html import StandaloneHTMLBuilder
 # -- Project information -----------------------------------------------------
 
 project = 'OpenAg'
-copyright = '2021, UC Merced Water Systems Management Lab, Vicelab, and the Center for Information Technology Research in the Interest of Society'
-author = 'UC Merced Water Systems Management Lab, Vicelab, and the Center for Information Technology Research in the Interest of Society'
+copyright = '2021, UC Merced Water Systems Management Lab,\n Vicelab, and the Center for Information\n Technology Research in the Interest of Society'
+author = 'UC Merced Water Systems Management Lab,\n Vicelab, and the Center for Information\n Technology Research in the Interest of Society'
 
 # The full version, including alpha/beta/rc tags
-release = '0.2'
+release = '1.0'
 
 # rst_epilogs get appended to pages - currently, we're adding the ability to reference the project name as a variable in pages
 rst_epilog = '.. |project_name| replace:: {}'.format(project)
