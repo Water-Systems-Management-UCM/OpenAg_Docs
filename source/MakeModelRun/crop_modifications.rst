@@ -118,6 +118,20 @@ and change the settings to apply to all regions in the model area that grow Appl
 If you change your mind and wish to remove the region-link, simply remove the entire card. You may still add the main
 crop commodity's card both before and after removal of a region-linked card.
 
+.. _AdjustingCropAreaRestrictions:
+
+Adjusting Crop Area Restrictions
+-----------------------------------
+
+.. todo:: fill in
+
+See :ref:`AdjustModificationParametersSection` for information on adjust prices and yield parameters.
+
+Constraints double slider with input boxes and adjustments on both sides
+
+.. image:: crop_area_restrictions_parameter.png
+
+
 .. _AdditionalReadingCropModificationsSection:
 
 Additional Reading on Modifications

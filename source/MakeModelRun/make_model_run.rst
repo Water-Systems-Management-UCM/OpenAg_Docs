@@ -90,7 +90,6 @@ You may create cards in two ways:
     For region modifications you may also click on the map to create a region modification card for the corresponding
     region. Since crop modification cards apply to the crop in all regions, there is no map to add crop modification cards.
 
-
 Overview of Region Modifications
 ___________________________________
 
@@ -118,6 +117,23 @@ _________________________________
 .. seealso::
     :ref:`ModelInputHierarchyDoc`
 
+.. _AdjustModificationParametersSection:
+
+How to Adjust Modification Parameters
+_______________________________________
+
+.. image:: parameter_basic.png
+
+Parameters on both region and crop modification cards can be adjusted in multiple ways. While each parameter allows
+adjustment of percentages relative to calibrated values in the model, |project_name| provides three ways to input parameter
+adjustments, depending on your preference.
+
+#. Each parameter provides a label indicating which parameter the control adjusts
+#. The parameter value can be input using a slider. Click and drag the circle on the slider to change the value. As you drag the slider, the value in the box on the right will change to indicate the current value
+#. You can input and type directly into the box. The value will update once you click or tab away from the box, and the slider will update to reflect the change in the box
+#. You can increment or decrement the value using the minus or plus signs on either side of the box, which will update the value in the box and adjust the slider value. These buttons allow you to drag the slider to get close to the value you want and then refine the value.
+
+See :ref:`AdjustingCropAreaRestrictions` for usage of Crop Area Restrictions sliders, which have more capabilities
 
 Capabilities in the Application
 ---------------------------------

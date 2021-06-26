@@ -48,6 +48,8 @@ to calibrated value.
 #. Land Availability:
     text
 
+.. todo:: finish section
+
 .. seealso::
     :ref:`See how region parameters are used in the irrigated land model <WaterExchangeSection>`
 
@@ -82,8 +84,9 @@ given region without affecting the output of another region.
 #. Simple:
     In some cases, you may not want to make the assumptions that the full PMP model makes - in this case, the "simple"
     option prevents them from being modeled in the PMP formulation, and instead assumes a linear scaling of values based
-    upon modifications in the input. See :ref:`SimpleModelingDoc` for more information on how the region will be modeled
-    when choosing this option. As of June 2021, using the Simple model will still run the nonirrigaged model separately for
+    upon modifications in the input. Regions using the Simple model are unaffected by crop area constraints.
+    See :ref:`SimpleModelingDoc` for more information on how the region will be modeled
+    when choosing this option. As of June 2021, using the Simple model will still run the nonirrigated model separately for
     crops and regions that have data available, but this behavior may change in the future.
 #. No Production:
     Use this if you want to model the region as if it produced nothing over the model time period. In the
@@ -91,9 +94,12 @@ given region without affecting the output of another region.
     no agricultural output. An alternative is to model the region normally, but filter results in the output
     to remove the region, in case you want to assess results both with and without the region.
 
-Note that these are high priority settings in that they take first precedence. A region held to base case will not
-be affected by the crop modification settings you choose. Results will appear exactly as in the base case for that region,
-while other regions will apply crop modifications as normal.
+.. warning::
+    Note that these are high priority settings in that they take first precedence. A region set to No Production will not
+    be affected by the crop modification settings you choose. Regions using the Simple model will interpret most inputs
+    differently and will be unaffected by crop area constraints that would have otherwise affected
+    the crops in the region. The team is discussing at this time whether crop area constraints values can be used in
+    place of the land slider for crops they apply to.
 
 .. _DefaultAdvancedRegionOptionsSection:
 
