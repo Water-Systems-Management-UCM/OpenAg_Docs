@@ -73,6 +73,8 @@ Creating Region Modification Cards
 1. Search for region by name
 2. Click on map
 
+.. _RegionModificationsMapSection:
+
 Map Capabilities
 -------------------
 

@@ -51,6 +51,8 @@ decrease the other by 10% unless they both have the same amount of total availab
 need to determine how much water is available in each region, using either the Input Data Viewer or viewing the base case,
 and then determine what percentage values for each region would indicate the same amount of water.
 
+.. _AllRegionsAllCropsSection:
+
 All Regions and All Crops
 ___________________________
 
@@ -93,13 +95,43 @@ You may create cards in two ways:
 Overview of Region Modifications
 ___________________________________
 
-.. todo:: fill in
+.. image:: region_modifications_overview.png
 
-..
-    .. image:: RegionModifications.png
+Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
+of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
+for the :ref:`model area <ModelAreaConceptSection>`).
+
+The region modifications portion of the New Model Run page includes many components and options:
+
+1. The :ref:`All Regions Card <AllRegionsAllCropsSection>`:
+    The all regions card provides the ability to adjust model parameters for all regions within the model area. The
+    parameters provided here will be used for every region, except those added as separate cards (see item 3).
+2. The region selection box to add region modification cards:
+    In order to provide more specific per-region parameters, add cards by clicking into this box and choosing the region
+    name from the dropdown or typing into the box to search available regions. You can check the boxes next to multiple
+    regions to add cards for many at once. Region cards may also be added by clicking on the map. Region modification
+    cards will appear below this box as they are added.
+3. :ref:`Region modification cards <RegionModificationsDoc>`:
+    Adjust parameters for specific regions here. Any region with a modification card will use the parameters on the region-specific
+    card as opposed to those on the All Regions card.
+4. :ref:`Advanced region modification options <AdvancedRegionOptionsSection>`:
+    Click on :code:`Advanced` in order to show options that change how the region is modeled.
+5. The :ref:`map view of the current configured modifications <RegionModificationsMapSection>`
+    The map view on the right side of the page changes color by region as input parameters are modified to give a sense
+    for the impact of the current set of input parameters model-wide. Darker grey/black
+    colors indicate lower percentage values and brighter greens indicate higher percentage values. The map only shows
+    a single variable at a time and defaults to showing the irrigation water availability. Regions may be clicked on the
+    map to add modification cards and hovered over to see their names.
+6. Controls to change the map view's parameter:
+    In the upper right of the map are buttons that change which region parameter is displaying on the map. To see the
+    overall set of changes to another parameter, click the appropriate button here.
+7. The continue button:
+    Clicking here will finish the region modifications step and move on to creating crop modifications. You may return
+    to region modifications again by clicking on "Region Modifications" near the top of the page.
 
 .. seealso::
-    :ref:`RegionModificationsDoc`
+    For more details on working with region modifications, including information on specific choices and interactions,
+    see :ref:`RegionModificationsDoc`.
 
 Overview of Crop Modifications
 _________________________________
