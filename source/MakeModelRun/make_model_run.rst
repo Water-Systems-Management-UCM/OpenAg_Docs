@@ -1,7 +1,7 @@
 .. _MakeModelRunsDoc:
 
 .. index::
-    single: model run; create
+    pair: model run; create
 
 Creating Model Runs
 ==================================
@@ -53,6 +53,8 @@ Within the application, creating a model run has three steps:
 
 .. index::
     single: model run; create; modifications
+    single: modifications; create
+    single: create; modification
 .. _ModificationsOverviewSection:
 
 Overview of Modifications

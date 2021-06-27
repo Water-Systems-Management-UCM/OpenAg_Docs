@@ -27,10 +27,14 @@ project = "OpenAg Documentation"  # for sphinx
 copyright = '2021, Regents of the University of California'
 author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara for ' \
          'the Water Systems Management Lab and Vicelab at the University of California, Merced'
+      #   'the <a href="https://wsm.ucmerced.edu">Water Systems Management Lab</a> and <a href="https://vicelab.ucmerced.edu">Vicelab</a> at the University of California, Merced'
 latex_author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, \\\\' \
                'José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, \\\\' \
-               'and Josué Medellín-Azuara for the Water Systems Management \\\\' \
-               'Lab and Vicelab at the University of California, Merced'
+                'and Josué Medellín-Azuara for the \href{https://wsm.ucmerced.edu}{Water Systems Management} \\\\' \
+               '\href{https://wsm.ucmerced.edu}{Lab} and \href{https://vicelab.ucmerced.edu}{Vicelab} at the University of California, Merced'
+# 'and Josué Medellín-Azuara for the Water Systems Management \\\\' \
+# 'Lab and Vicelab at the University of California, Merced'
+
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
