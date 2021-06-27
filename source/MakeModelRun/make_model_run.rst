@@ -18,15 +18,22 @@ On this page:
 
 An Overview of Model Run Creation
 -----------------------------------
+
+.. todo:: Add an Overview Screenshot
+
 Within the application, creating a model run has three steps:
 
-#. Add :ref:`Region Modifications <RegionModificationsDoc>`:
+#. Add :ref:`Region Modifications <RegionModificationsOverviewSection>`:
     Add adjustments to region-wide parameters either across the model or for specific regions in the :ref:`model area <ModelAreasDoc>`.
     Modifications for regions will always include irrigated water availability and total cropped land availability and may
-    include rainfall, depending on the model area and available data.
-#. Add :ref:`Crop Modifications <CropModificationsDoc>`:
+    include rainfall, depending on the model area and available data. Information on
+    :ref:`how to create region modifications <RegionModificationsOverviewSection>` is
+    below and details on parameters, options, and interactions are on the :ref:`RegionModificationsDoc` page.
+#. Add :ref:`Crop Modifications <CropModificationsOverviewSection>`:
     Add adjustments to crop-specific parameters, such as prices, yields, and crop area constraints. The crop parameters will apply to the crop
     in all region it is grown in, by default, though it is possible to :ref:`tie crop parameters to a specific region <RegionLinkedCropsSection>`.
+    Information on :ref:`how to create crop modifications <CropModificationsOverviewSection>` is
+    below and details on parameters, options, and interactions are on the :ref:`CropModificationsDoc` page.
 #. Add Metadata and Review:
     The final step of creating a model run allows you to add a name, descriptive text, and to review a summary of inputs.
 
@@ -92,6 +99,8 @@ You may create cards in two ways:
     For region modifications you may also click on the map to create a region modification card for the corresponding
     region. Since crop modification cards apply to the crop in all regions, there is no map to add crop modification cards.
 
+.. _RegionModificationsOverviewSection:
+
 Overview of Region Modifications
 ___________________________________
 
@@ -132,6 +141,8 @@ The region modifications portion of the New Model Run page includes many compone
 .. seealso::
     For more details on working with region modifications, including information on specific choices and interactions,
     see :ref:`RegionModificationsDoc`.
+
+.. _CropModificationsOverviewSection:
 
 Overview of Crop Modifications
 _________________________________

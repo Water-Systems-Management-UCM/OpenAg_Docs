@@ -1,7 +1,12 @@
 .. _RegionModificationsDoc:
 
-Region Modifications
-=====================
+Region Modifications Details
+==============================
+
+..
+    This document should be about the details of a specific region modification including parameters, options, and
+    interactions - it's not about general application processes for creating the modifications - that goes in
+    Make Model Run
 
 On this page:
 
@@ -12,6 +17,9 @@ On this page:
 
 Overview
 ----------
+
+.. todo:: Add Region Modifications Screenshot
+
 Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
 of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
 for the :ref:`model area <ModelAreaConceptSection>`).
