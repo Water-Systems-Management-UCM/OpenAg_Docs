@@ -125,7 +125,7 @@ The region modifications portion of the New Model Run page includes many compone
     card as opposed to those on the All Regions card.
 4. :ref:`Advanced region modification options <AdvancedRegionOptionsSection>`:
     Click on :code:`Advanced` in order to show options that change how the region is modeled.
-5. The :ref:`map view of the current configured modifications <RegionModificationsMapSection>`
+5. The map view of the current configured modifications`
     The map view on the right side of the page changes color by region as input parameters are modified to give a sense
     for the impact of the current set of input parameters model-wide. Darker grey/black
     colors indicate lower percentage values and brighter greens indicate higher percentage values. The map only shows

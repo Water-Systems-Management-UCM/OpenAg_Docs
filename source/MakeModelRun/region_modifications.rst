@@ -76,21 +76,6 @@ to calibrated value.
 .. seealso::
     :ref:`See how region parameters are used in the irrigated land model <WaterExchangeSection>`
 
-Creating Region Modification Cards
-------------------------------------
-1. Search for region by name
-2. Click on map
-
-.. _RegionModificationsMapSection:
-
-Map Capabilities
--------------------
-
-clickable to add cards
-
-shows total impact of modifications for a single parameter on the map
-
-Currently does *not* react to region modeling type.
 
 .. _AdvancedRegionOptionsSection:
 
