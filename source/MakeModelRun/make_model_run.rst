@@ -1,5 +1,8 @@
 .. _MakeModelRunsDoc:
 
+.. index::
+    single: model run; create
+
 Creating Model Runs
 ==================================
 By default, running the OpenAg model with no modifications will produce the output that most
@@ -9,6 +12,9 @@ deviations or changes in conditions compared with the base case. You provide the
 of two separate types of modifications to the model inputs and constraints: region modifications
 and crop modifications.
 
+.. todo:: This page needs some restructuring once everything is written - the adding cards section is redundant,
+    and maybe those kinds of details go on another page
+
 On this page:
 
 .. contents::
@@ -16,10 +22,13 @@ On this page:
     :local:
     :backlinks: none
 
+.. index::
+    single: model run; create; overview
+
 An Overview of Model Run Creation
 -----------------------------------
 
-.. todo:: Add an Overview Screenshot
+.. figure:: RegionModifications.png
 
 Within the application, creating a model run has three steps:
 
@@ -39,6 +48,12 @@ Within the application, creating a model run has three steps:
 
 .. seealso::
     :ref:`ModelInputHierarchyDoc` for more information on how OpenAg determines which values to use when inputs overlap.
+
+
+
+.. index::
+    single: model run; create; modifications
+.. _ModificationsOverviewSection:
 
 Overview of Modifications
 ---------------------------
@@ -104,7 +119,7 @@ You may create cards in two ways:
 Overview of Region Modifications
 ___________________________________
 
-.. image:: region_modifications_overview.png
+.. figure:: region_modifications_overview.png
 
 Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
 of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
@@ -150,15 +165,11 @@ _________________________________
 .. todo:: fill in
 
 ..
-    .. image:: cropimage.png
+    .. figure:: cropimage.png
 
 .. seealso::
-    :ref:`CropModificationsDoc`
-
-.. _AllRegionsAndAllCropsOverviewSection:
-
-.. seealso::
-    :ref:`ModelInputHierarchyDoc`
+    * :ref:`CropModificationsDoc`
+    * :ref:`ModelInputHierarchyDoc`
 
 .. _AdjustModificationParametersSection:
 
@@ -176,12 +187,19 @@ adjustments, depending on your preference.
 #. You can input and type directly into the box. The value will update once you click or tab away from the box, and the slider will update to reflect the change in the box
 #. You can increment or decrement the value using the minus or plus signs on either side of the box, which will update the value in the box and adjust the slider value. These buttons allow you to drag the slider to get close to the value you want and then refine the value.
 
-See :ref:`AdjustingCropAreaRestrictions` for usage of Crop Area Restrictions sliders, which have more capabilities
+See :ref:`AdjustingCropAreaRestrictions` for usage of Crop Area Restrictions sliders, which have more capabilities.
 
 Capabilities in the Application
 ---------------------------------
 Though we have attempted to make the application as straightforward and user-friendly as possible, before creating a model run it is important
 to spend time considering how to translate your scenario of interest into adjustments that the model accepts.
+
+#. Water transfers within a region
+#. Water transfers between regions
+#. Climate change impacts
+#. Reduced production
+#. Salinity impacts
+#. Crop mix changes
 
 .. todo:: flesh out section stub
 
@@ -190,13 +208,6 @@ e.g. what can we actually change or control in the application
 .. seealso::
     :ref:`TranslatingCommonScenariosDoc`
 
-
-.. _ModificationsOverviewSection:
-
-Summary and Review
---------------------
-
-.. todo:: fill in
 
 Additional Reading on Model Run Creation
 -------------------------------------------

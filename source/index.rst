@@ -12,17 +12,18 @@ into a set of regions with input data that are modeled independently.
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Documentation Contents:
+    :maxdepth: 1
+    :caption: Documentation Contents:
 
-   core_concepts.rst
-   Dapper/dapper.rst
-   ModelRuns/model_runs.rst
-   MakeModelRun/make_model_run.rst
-   InputDataViewer/input_data_viewer.rst
-   ListModelRuns/list_model_runs.rst
-   Troubleshooting/troubleshooting.rst
-   Changelog/changelog.rst
+    core_concepts.rst
+    Dapper/dapper.rst
+    ModelRuns/model_runs.rst
+    MakeModelRun/make_model_run.rst
+    InputDataViewer/input_data_viewer.rst
+    Troubleshooting/troubleshooting.rst
+    Changelog/changelog.rst
+    genindex.rst
+
 
 Documentation Downloads and PDF
 ----------------------------------
@@ -35,20 +36,16 @@ Documentation Downloads and PDF
 Suggestions, Bugs, or Contributions to the Documentation
 -------------------------------------------------------------
 
-* If you have a suggestion for the documentation or a question not answered in the documentation, please
-`start a discussion on GitHub <https://github.com/ucm-openag/OpenAg_Docs/discussions/categories/ideas>`_.
+* If you have a suggestion for the documentation or a question not answered in the documentation, please `start a discussion on GitHub <https://github.com/ucm-openag/OpenAg_Docs/discussions/categories/ideas>`_.
 * If you identify a bug, please `reach out on GitHub to file an issue <https://github.com/Water-Systems-Management-UCM/Waterspout/issues>`_.
 * If you need to `get in touch with the development team otherwise, please use this form <https://wsm.ucmerced.edu/contact-us/>`_.
+
+.. index::
+    single: citation; suggested
 
 Suggested Citation
 --------------------
 Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara. OpenAg Documentation. 2021. https:///openag-docs.readthedocs.io
 
-.. image:: _static/images/home_image.png
 
-
-
-Indices and tables
-===================
-
-
+.. figure:: _static/images/home_image.png

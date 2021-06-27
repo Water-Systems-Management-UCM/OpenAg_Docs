@@ -18,7 +18,7 @@ On this page:
 Overview
 ----------
 
-.. todo:: Add Region Modifications Screenshot
+.. figure:: region_card.png
 
 Region modifications are the first step in :ref:`creating an OpenAg model run <MakeModelRunsDoc>` and allow for adjustment
 of region-specific parameters, such as irrigation, land area used for agricultural production, and rainfall (if configured
@@ -86,7 +86,7 @@ When working with region cards, you have the option to change advanced settings 
 that adjust how the region is modeled. Since each region is modeled independently, you can change these settings for any
 given region without affecting the output of another region.
 
-.. image:: region_card_advanced.png
+.. figure:: region_card_advanced.png
 
 #. Full:
     The default behavior for most regions and model areas. When the Full option is selected, the region will be run
