@@ -43,12 +43,27 @@ to calibrated value.
     in the dataset. See :ref:`IrrigatedDataSplitDoc` for more information on how |project_name| determines availability
     of nonirrigated lands.
 #. Irrigation Availability:
-    The irrigation availability parameter adjusts irrigation water available within each region as part of the
-    :ref:`irrigated lands PMP model <IrrigatedPMPDoc>`.
+    The irrigation availability parameter adjusts total irrigation water available within each region as part of the
+    :ref:`irrigated lands PMP model <IrrigatedPMPDoc>`. The model uses this parameter along with the land parameter
+    below to adjust crop mix and water allocation based on new resource availability. The parameter
+    allows for reductions of up to 50% and increases of up to 20%.
+    It will show for all regions in model areas without nonirrigated land in the dataset and will show for most regions
+    otherwise. In some cases, it may be unavailable if more than 95% of land in the region is nonirrigated. See
+    :ref:`IrrigatedDataSplitDoc` for more information on how |project_name| determines the availability of irrigated
+    and nonirrigated land.
 #. Land Availability:
-    text
+    The land availability parameter adjusts total available cropland within each region as part both the irrigated
+    and nonirrigated models. The model uses this parameter along with the irrigation availability parameter to adjust
+    crop mix and water allocation based on new resource availability. The parameter
+    allows for reductions of up to 50% and increases of up to 20%.
 
-.. todo:: finish section
+.. warning::
+    In regions with both irrigated and nonirrigated land, the land availability slider impacts both types of cropland
+    equally, which may not align with expectations. Nonirrigated land will be linearly scaled back according to the
+    parameter while irrigated land will have a new upper bound constraint on the available land for all crops when
+    reoptimizing the crop mix. In some areas, a more realistic scenario might be that more nonirrigated land goes
+    out of production if irrigation availability remains constant but land availability is reduced. At this time,
+    |project_name| does not support such a behavior.
 
 .. seealso::
     :ref:`See how region parameters are used in the irrigated land model <WaterExchangeSection>`
