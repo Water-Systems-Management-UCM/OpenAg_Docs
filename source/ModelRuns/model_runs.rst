@@ -97,8 +97,25 @@ Downloading Inputs or Results
 Model run parameter inputs and results may each be downloaded as `Comma Separated Values (CSV) <https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/>`_
 files from the :code:`Downloads` menu at the top of the page. From that menu, the following items are available as CSVs:
 
+* Results for irrigated lands
+* Results for nonirrigated lands (when configured)
+* :ref:`Region modification <RegionModificationsOverviewSection>` inputs
+* :ref:`Crop modification <CropModificationsOverviewSection>` inputs
+
 Changing the Model Run Name or Description
 --------------------------------------------
+
+.. figure:: edit_title.png
+
+    Editing the title of a model run by clicking the edit icon next to the title
+
+Model run names and descriptions may be edited by clicking the pencil :code:`edit` icon next to the model run name
+or the Description header, or by clicking directly on the text itself. When editing, the background of the text will
+be white and it will have a darker border around the edge. Change the title or description to the desired value, then
+click or tab away from the field to change focus and save the changes. If the change is successful, a notification
+bar will pop up at the top of the page alerting you it saved the changes successfully. If it is unsuccessful, then the
+title or description will be reverted to their old values.
+
 
 Model Run Status Messages and Metadata
 ----------------------------------------

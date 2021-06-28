@@ -5,6 +5,12 @@ Visual Changelog - June 2021
    :maxdepth: 1
    :caption: OpenAg Changes for June 2021:
 
+Editing Titles and Descriptions of Model Runs
+------------------------------------------------
+You have been able to edit titles and descriptions for many months, but the application gave no indication that it was
+possible. Now there's a helpful little edit icon to click in addition to clicking on the text itself, along with some
+additional cues that the text is editable once clicked.
+
 Default Region Modeling Behavior and Change-able Behaviors
 -------------------------------------------------------------
 .. figure:: ../../MakeModelRun/region_card_advanced.*
