@@ -159,9 +159,18 @@ _________________________
 
 .. figure:: multiple_results_sets.png
 
-    The dropdown menu allowing selection of the results to visualize
+    The dropdown menu allowing selection of the results set to visualize on the page
 
-.. todo:: flesh out
+In some cases, a model run may have multiple sets of results. This situation typically occurs when the |project_name|
+model is updated in a way that impacts model results. In that instance, all existing model runs are re-run, and will gain
+an additional set of results that will display by default. Typically, only the most recent set of results that is shown
+by default is valid. But all previous sets of results are kept so that you can change to viewing them and understand
+what impact the update to the model has on any interpretations you may have had of the previous results.
+
+If multiple sets of results are available, a dropdown menu will appear below the status text on the page and will allow
+you to select the date each set of results became available to display that set of results. Information shown on the rest
+of the page will immediately update based on the selected results set. If the dropdown is not visible, then the model
+run only has a single set of results.
 
 Inputs
 ----------
