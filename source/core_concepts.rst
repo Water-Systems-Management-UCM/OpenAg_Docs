@@ -3,7 +3,11 @@ Core Concepts in |project_name|
 
 The |project_name| Model
 ---------------------------
-The |project_name| application utilizes Positive Mathematical Programming (`Howitt et al. (2012) <https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016WR019639>`_) to model
+
+.. todo::
+    Update to reflect that we now have multiple models
+
+The |project_name| application utilizes Positive Mathematical Programming (`Howitt et al. 2012 <https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016WR019639>`_) to model
 changes in land use, applied irrigation water, and gross revenue based on user-provided fine-grained
 adjustments to land and water availability, crop prices and yields, and crop land-use constraints.
 
@@ -56,9 +60,9 @@ to region-level data, such as irrigated water availability, rainfall, and croppe
 data, such as price yield, and minimum/maximum land area.
 
 .. seealso::
-    :ref:`MakeModelRunsDoc`
-    :ref:`RegionModificationsDoc`
-    :ref:`CropModificationsDoc`
+    * :ref:`MakeModelRunsDoc`
+    * :ref:`RegionModificationsDoc`
+    * :ref:`CropModificationsDoc`
 
 
 .. _CardsConceptSection:

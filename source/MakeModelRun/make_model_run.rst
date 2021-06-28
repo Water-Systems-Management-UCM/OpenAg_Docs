@@ -1,7 +1,7 @@
-.. _MakeModelRunsDoc:
-
 .. index::
     pair: model run; create
+
+.. _MakeModelRunsDoc:
 
 Creating Model Runs
 ==================================
@@ -74,6 +74,12 @@ if you want to simulate a water transfer between two regions, it would be incorr
 decrease the other by 10% unless they both have the same amount of total available irrigation water. Instead, you would
 need to determine how much water is available in each region, using either the Input Data Viewer or viewing the base case,
 and then determine what percentage values for each region would indicate the same amount of water.
+
+.. index::
+    single: model run; create; all regions
+    single: model run; create; all crops
+    single: modifications; all regions
+    single: modifications; all crops
 
 .. _AllRegionsAllCropsSection:
 

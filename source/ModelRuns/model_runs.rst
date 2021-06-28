@@ -1,3 +1,9 @@
+
+.. index::
+    single: model run; find
+    single: model run; view
+    see: scenario; model run
+
 .. _ModelRunDoc:
 
 Viewing and Working with Model Runs
