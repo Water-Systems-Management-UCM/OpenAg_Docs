@@ -76,7 +76,7 @@ Automatic Addition of Crop Modification Cards
 
     Some crop cards may be automatically added, as shown here with the blue banner that says "Automatically Added"
 
-While adjusting values for the :ref:`All Crops <AllRegionsAndAllCropsSection>` card, OpenAg will sometimes automatically add cards for specific crops for you.
+While adjusting values for the :ref:`All Crops <AllRegionsAllCropsSection>` card, OpenAg will sometimes automatically add cards for specific crops for you.
 It adds the cards because the settings on the All Crops card would make growing some crops economically infeasible - they
 would lose money growing the crops in at least one region in the model. You may intend for that as an input, but in some cases you may not, so in order to
 alert you to that condition and give you an explicit choice, the web application adds cards for crops before the settings

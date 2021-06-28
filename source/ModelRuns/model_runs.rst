@@ -81,7 +81,7 @@ Deleting a Model Run
 To delete a model run while viewing it, click the :code:`Delete this model run` button with the trash can icon near the
 top of the page. It will then change to say :code:`Click to confirm deletion` for five seconds. If you click it again,
 the model run will be permanently and irreversibly deleted. If you do not click it again, it will change back to its
-original state and will remain available for viewing. Model runs may also be deleted from the :ref:`model run listing` page.
+original state and will remain available for viewing. Model runs may also be deleted from the :ref:`model run listing <FindingModelRunsDoc>` page.
 
 
 .. index::
@@ -102,6 +102,12 @@ files from the :code:`Downloads` menu at the top of the page. From that menu, th
 * :ref:`Region modification <RegionModificationsOverviewSection>` inputs
 * :ref:`Crop modification <CropModificationsOverviewSection>` inputs
 
+.. index::
+    single: model run; metadata; description
+    double: model run; description
+    single: model run; metadata
+
+
 Changing the Model Run Name or Description
 --------------------------------------------
 
@@ -116,6 +122,10 @@ click or tab away from the field to change focus and save the changes. If the ch
 bar will pop up at the top of the page alerting you it saved the changes successfully. If it is unsuccessful, then the
 title or description will be reverted to their old values.
 
+.. index::
+    single: model run; metadata
+    single: model run; metadata; status
+    double: model run; status
 
 Model Run Status Messages and Metadata
 ----------------------------------------
@@ -151,6 +161,10 @@ _________________
 Additional metadata available includes the model version used to run the model, the name of the user that created the
 model, and the date and time the model run was created. The version of the model is provided in case it is needed for
 additional reporting. It may change between model runs as the application is updated.
+
+.. index::
+    single: model run; results; multiple
+    single: results; multiple
 
 .. _MultipleResultsSetsSection:
 
