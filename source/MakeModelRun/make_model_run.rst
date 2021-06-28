@@ -15,6 +15,16 @@ and crop modifications.
 .. todo:: This page needs some restructuring once everything is written - the adding cards section is redundant,
     and maybe those kinds of details go on another page
 
+.. toctree::
+    :maxdepth: 2
+    :caption: In this section:
+
+    region_modifications.rst
+    crop_modifications.rst
+    model_input_hierarchy.rst
+    translating_common_scenarios.rst
+
+
 On this page:
 
 .. contents::
@@ -215,15 +225,3 @@ e.g. what can we actually change or control in the application
 
 .. seealso::
     :ref:`TranslatingCommonScenariosDoc`
-
-
-Additional Reading on Model Run Creation
--------------------------------------------
-.. toctree::
-    :maxdepth: 2
-
-    region_modifications.rst
-    crop_modifications.rst
-    model_input_hierarchy.rst
-    translating_common_scenarios.rst
-

@@ -1,7 +1,12 @@
-.. _ViewingModelRunsDoc:
+.. index::
+    single: model run; view; results
+    single: model run; results
+    single: results
 
-Viewing Model Runs
-======================
+.. _ViewingModelRunResultsDoc:
+
+Viewing Model Run Results and Input Data
+===========================================
 
 .. contents::
     :local:
