@@ -5,6 +5,13 @@ Visual Changelog - June 2021
    :maxdepth: 1
    :caption: OpenAg Changes for June 2021:
 
+Model Version Provided in Status Box
+----------------------------------------
+.. figure:: ../../ModelRuns/status_and_metadata.png
+
+    Model runs status cards now include the version of the model used so that it can be provided in any external reporting.
+
+
 Editing Titles and Descriptions of Model Runs
 ------------------------------------------------
 You have been able to edit titles and descriptions for many months, but the application gave no indication that it was

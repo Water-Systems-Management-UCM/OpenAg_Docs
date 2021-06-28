@@ -119,6 +119,49 @@ title or description will be reverted to their old values.
 
 Model Run Status Messages and Metadata
 ----------------------------------------
+.. figure:: status_and_metadata.png
+
+    The model run status card with the model version used for the model run and the metadata card showing the name
+    of the user that created the model run and the date and time it was created.
+
+When viewing a model run, you may see three main status messages and one modified status message:
+
+* Waiting
+    The model run has not yet started. You may encounter this if you have queued up many runs, or if others are working
+    at the same time and the server lacks capacity to run your model immediately
+* Running
+    The model run is currently running. Model runs typically take between 10 seconds and a few minutes. If your model
+    run has been in the running state for longer than 10 minutes, it may have stalled or is being repeatedly restarted
+    and you should :ref:`reach out to the |project_name| team <SuggestionsBugsContributionsSection>`.
+* Results Available (Complete)
+    The model run has completed running and results are loaded and available for viewing. When this status is shown,
+    the application will show results by default instead of the inputs.
+* Results Available - Contains Infeasibilities
+    The same as :code:`Complete`, but warning that some regions had infeasible results. For more information on
+    infeasibilities, see :ref:`InfeasibilitiesSection`. You may wish to create a new version of this model run
+    to address the infeasibilities as the total results may be invalid.
+
+Model runs that are either :code:`Waiting` or :code:`Running` check for updates every 10 seconds and the page will
+update automatically without refreshing. While in the :code:`Waiting` or :code:`Running` states, |project_name| shows
+the model run's inputs. If the model run completes, the page will change from showing the model run
+inputs to showing the results, though the inputs tab is still available to access.
+
+Metadata
+_________________
+Additional metadata available includes the model version used to run the model, the name of the user that created the
+model, and the date and time the model run was created. The version of the model is provided in case it is needed for
+additional reporting. It may change between model runs as the application is updated.
+
+.. _MultipleResultsSetsSection:
+
+Multiple Results Sets
+_________________________
+
+.. figure:: multiple_results_sets.png
+
+    The dropdown menu allowing selection of the results to visualize
+
+.. todo:: flesh out
 
 Inputs
 ----------
@@ -127,6 +170,8 @@ See :ref:`ViewingModelRunInputsDoc` for complete documentation on viewing inputs
 Results
 ------------------------------
 See :ref:`ViewingModelRunResultsDoc` for complete documentation on model run results
+
+.. _InfeasibilitiesSection:
 
 Infeasibilities
 -------------------
