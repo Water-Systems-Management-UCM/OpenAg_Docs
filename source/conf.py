@@ -26,8 +26,7 @@ rst_epilog = '.. |project_name| replace:: {}'.format(project_name)
 project = "OpenAg Documentation"  # for sphinx
 copyright = '2021, Regents of the University of California'
 author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, and Josué Medellín-Azuara for ' \
-         'the Water Systems Management Lab and Vicelab at the University of California, Merced'
-      #   'the <a href="https://wsm.ucmerced.edu">Water Systems Management Lab</a> and <a href="https://vicelab.ucmerced.edu">Vicelab</a> at the University of California, Merced'
+         'the <a href="https://wsm.ucmerced.edu">Water Systems Management Lab</a> and <a href="https://vicelab.ucmerced.edu">Vicelab</a> at the University of California, Merced'
 latex_author = 'Nicholas Santos, Spencer Cole, Anna Rallings, Alex Guzman, \\\\' \
                'José M. Rodríguez-Flores, Alvar Escriva-Bou, Joshua Viers, \\\\' \
                 'and Josué Medellín-Azuara for the \href{https://wsm.ucmerced.edu}{Water Systems Management} \\\\' \
