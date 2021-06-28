@@ -194,7 +194,27 @@ Results
 ------------------------------
 See :ref:`ViewingModelRunResultsDoc` for complete documentation on model run results
 
+
+.. index::
+    single: model runs; infeasibilities
+    single: infeasibilities
+
 .. _InfeasibilitiesSection:
 
 Infeasibilities
 -------------------
+In some cases, the provided inputs can result in an "infeasible" model run - one where the conditions provided could
+not create a viable set of results. For example, if a region has two crops and the inputs specify to reduce land
+by 50%, but also specify a minimum crop area restriction for each crop of 70%, then the model can't reduce either crop's
+land enough to satisfy the new land requirement, resulting in an infeasible model run.
+
+In most cases, you will need to create a new model run that resolves infeasibilities in order to interpret results. An
+infeasible model's results are typically not comparable to other models. However, since |project_name| runs
+independent models by region, infeasible results are by region as well - that is, if you exclude
+the regions with infeasible results, then the remaining results are valid.
+
+When a model has infeasible results, as shown in the status message, it will also have a tab next to the :code:`Results`
+and :code:`Inputs` tabs for Infeasibilities that shows you which regions had infeasible results. When recreating the
+model run, pay special attention to the settings for those regions. If it lists regions that you did not create explicit
+region modifications for, then pay attention to the settings on the :ref:`All Regions card <AllRegionsAllCropsSection>`
+and also to any :ref:`crop area restrictions <AdjustingCropAreaRestrictions>` you may have set.
