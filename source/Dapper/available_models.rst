@@ -20,10 +20,10 @@ Where the PMP model focuses on decisions of land use and water allocation with u
       - User inputs
       - Outputs
     * - :ref:`Irrigated Lands PMP (Full) Model <IrrigatedPMPDoc>`
-      - Irrigated water availability, Land availability, crop price, crop yield, crop area constraints
+      - Irrigated water availability, land availability, crop price, crop yield, crop area constraints
       - Land allocation, water allocation, gross revenue
     * - :ref:`Irrigated Lands Linear (Simple) Model <SimpleModelingDoc>`
-      - Irrigated water availability, Land availability, crop price, crop yield
+      - Irrigated water availability, land availability, crop price, crop yield
       - Land allocation, water allocation, gross revenue
     * - :ref:`Nonirrigated Lands Regression Model <NonIrrigatedDoc>`
       - Rainfall, crop price

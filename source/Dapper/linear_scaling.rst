@@ -11,7 +11,7 @@ Simple Modeling and Linear Scaling
 4. You wish to run a version of the model that makes a more limited set of assumptions
 5. For running "worst case scenario" modeling
 
-Where the Full model assumes that within regions, resources can be freely traded, allowing multiple independent farmers
+Where the Full model assumes that within regions resources can be freely traded, allowing multiple independent farmers
 to find optimal economic outcomes as resource availability changes, the simplified version assumes that changes
 to resource availability apply evenly to everyone, and they are unable to take steps to further improve their outcomes
 as their resource availability changes. We sometimes think of this as a "worst case scenario" outcome in that, when using
@@ -33,5 +33,5 @@ interface are noted as :code:`adj` with a subscript and are used as proportions 
 
 The Simple model makes an assumption similar to the Full PMP model that deficit irrigation is not allowed. Thus, a proportional
 reduction in water can be thought of as proportional reduction in land because, without deficit irrigation, water will
-not be available to farm additional land as water is reduced. However, land and water reductions do not stack, and instead,
+not be available to farm additional land as water is reduced. However, land and water reductions do not stack, and instead
 the Simple model uses the smallest of the two adjustments as the limiting factor that determines how much land is in production.

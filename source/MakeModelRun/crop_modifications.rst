@@ -55,10 +55,11 @@ Crop Cards support three parameters:
     crop to free up resources for the higher value crop, then setting a low-end limit on that crop's crop area restriction
     limits the model's ability to remove it from production. Crop area restrictions are not used in the :ref:`nonirrigated lands model <NonIrrigatedDoc>`.
 
-Crop area restrictions should be used with care. Since they create a hard constraint in the model, misconfiguration of
-these constraints can lead to infeasible model runs. For example, setting all crops to a minimum crop area restriction
-of 100% while reducing resource availability such as water or land is likely to result in an infeasible model run since
-the model will not be able to take crops out of production to satisfy model conditions.
+.. warning::
+	Crop area restrictions should be used with care. Since they create a hard constraint in the model, misconfiguration of
+	these constraints can lead to infeasible model runs. For example, setting all crops to a minimum crop area restriction
+	of 100% while reducing resource availability such as water or land is likely to result in an infeasible model run since
+	the model will not be able to take crops out of production to satisfy model conditions.
 
 For a table showing which parameters apply in the irrigated and the nonirrigated models, please see :ref:`ModelsAvailableDoc`.
 

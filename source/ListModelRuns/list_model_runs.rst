@@ -34,12 +34,18 @@ compare completed model runs.
 7. |project_name| only checks for new model runs from others in your organization and changes to :ref:`model status <ModelRunStatusSection>` when you load the application. To prompt it to update the list of model runs and their statuses, click the :code:`Update` button at the top of the page, which will immediately update the list.
 8. The page also includes a shortcut to create a new model run.
 
-Filtering model runs
+Filtering Model Runs
 ---------------------------
 .. todo:: flesh out
 
 :ref:`Settings <SettingsDoc>` that apply here
+Existing model runs can be filtered using the “Filter model runs” list in the header of the “Model Runs” window (see area 6 above). Currently, 
+users can filter to find “Base runs”, “Runs I have created”,  “Runs created by others in my organization”, and “Prepopulated runs”. 
 
 Find Model Runs on a Scatterplot of Model Run Inputs
 -----------------------------------------------------------
 .. todo:: flesh out
+
+..
+    Comment
+    Filters for "Base runs" and "Prepopulated runs" only includes 1 run which is the Base case. Maybe Prepopulated is unecessary. 

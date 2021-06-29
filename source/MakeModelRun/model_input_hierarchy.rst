@@ -17,7 +17,7 @@ and discards less specific parameters.
 Priority Orders
 -----------------
 
-Highest priority items are first, and lowest priority items are last for each list
+For each list below, the items are ordered from highest to lowest priotrity.
 
 Region Modification Hierarchy
 _______________________________
@@ -25,15 +25,18 @@ _______________________________
     Regions that are set to :ref:`"No Production" <AdvancedRegionOptionsSection>` override *all* other settings that would apply to that region, including settings
     from crop cards. OpenAg drops the data for No Productions regions before running the model and the data for a removed
     region is not included in the model run.
-#. Hold to Base Case regions:
-    :ref:`"Hold to Base Case" <AdvancedRegionOptionsSection>` behave the same way as No Production regions. Setting a region as
-    Hold to Base Case overrides all the other settings for
-    the region for the model run, including crop modifications that would apply to the region. OpenAg drops the data
-    for regions set to Hold to Base Case from the model and re-adds the base case results back for the region after modeling the non-fixed and non-removed regions.
+
+    ..
+        #. Hold to Base Case regions:
+            :ref:`"Hold to Base Case" <AdvancedRegionOptionsSection>` behave the same way as No Production regions. Setting a region as
+            Hold to Base Case overrides all the other settings for
+            the region for the model run, including crop modifications that would apply to the region. OpenAg drops the data
+            for regions set to Hold to Base Case from the model and re-adds the base case results back for the region after modeling the non-fixed and non-removed regions.
 #. Specific region settings:
     Input parameters on a specific region are the highest priority way to specific a single input, such as irrigation water
-    availability. If the region is not fixed or removed and a value is set on a specific region modification card, then
-    that value will apply.
+    availability. If the region is not set to :code:`No Production` and a value is set on a specific region modification card, then
+    that value will apply. Regions set to use :ref:`Simple <SimpleModelingDoc>` modeling will apply values differently than regions using the
+    :ref:`Full <IrrigatedPMPDoc>` model.
 #. Region group settings (when available):
     If region groups are available, then parameters provided for a region group will apply for all regions within the
     region group unless a card is added to the model run for a region within the group, in which case the region-specific
@@ -56,5 +59,5 @@ ____________________________________
     The All Crops card is the fallback card - it applies when a more specific setting from the items above has not been provided.
 
 .. warning::
-    Crop adjustments never apply to regions that are set to "Removed" or "Fixed". These regions are not modeled directly
+    Crop adjustments never apply to regions that are set to "No Production". These regions are not modeled directly
     and so will not include crop modifications, regardless of region-linking.

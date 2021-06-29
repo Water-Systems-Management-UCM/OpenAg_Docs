@@ -73,12 +73,12 @@ Within the application, creating a model run has three steps:
 Overview of Modifications
 ---------------------------
 When creating a new model run, most inputs are expressed as modifications relative to the base case. You can express
-these modifications for all regions or all crops, or provide modifications for specific regions or specific crops.
+these modifications for all regions or all crops or provide modifications for specific regions or specific crops.
 
 By default, OpenAg preserves the base case, so a model run with no modifications will produce identical results to the
 base case model run for the model area. All modification options default to 100%, meaning the application will keep
 the value exactly as in the base case. Adjusting the value then means making an adjustment relative to that item's normal value,
-rather than inputting an absolute value for the parameter. If you wish to input a specific quantity of a resource (e.g.
+rather than inputting an absolute value for the parameter. If you wish to input a specific quantity of a resource (e.g.,
 irrigation water availability), then you need to first convert it to a percentage by comparing it to the amount available
 in the base case for the same unit of analysis, such as the individual region it applies to or all regions.
 
@@ -105,15 +105,16 @@ ___________________________
 
 The most straightforward inputs in OpenAg are displayed by default in the form of the "All Regions" and "All Crops"
 cards. The controls on these cards adjust the associated parameter for every region in the model area. Conceptually,
-the All Regions and All Crops can be thought of as making an adjustment across the entire model domain. So adjusting
+the All Regions and All Crops can be thought of as making an adjustment across the entire model domain. Adjusting
 "irrigation availability" to 90% would produce a 10% cutback of irrigation water in every region within the model.
 
-When setting values via the All Regions or All Crops cards, resources are not pooled between regions or crops and there
-is no implicit trading between regions, though you can replicate that scenario. Instead, when you adjust values
+When you adjust values
 on the All Regions or All Crops cards,
 the model behaves as if an individual card was set up for each region or crop. In other words, optimization always
 happens per region and the values are set explicitly for each region and crop combination, so changing water
-availability in the all regions card, for example, will not produce water transfers between regions.
+availability in the All Regions card, for example, will not produce water transfers between regions.
+When setting values via the All Regions or All Crops cards, resources are not pooled between regions or crops and there
+is no implicit trading between regions, though you can replicate that scenario. 
 
 Adding Cards
 -----------------
@@ -201,7 +202,7 @@ _______________________________________
 
 Parameters on both region and crop modification cards can be adjusted in multiple ways. While each parameter allows
 adjustment of percentages relative to calibrated values in the model, |project_name| provides three ways to input parameter
-adjustments, depending on your preference.
+adjustments, depending on your preference: 
 
 #. Each parameter provides a label indicating which parameter the control adjusts
 #. The parameter value can be input using a slider. Click and drag the circle on the slider to change the value. As you drag the slider, the value in the box on the right will change to indicate the current value
@@ -213,7 +214,7 @@ See :ref:`AdjustingCropAreaRestrictions` for usage of Crop Area Restrictions sli
 Capabilities in the Application
 ---------------------------------
 Though we have attempted to make the application as straightforward and user-friendly as possible, before creating a model run it is important
-to spend time considering how to translate your scenario of interest into adjustments that the model accepts.
+to spend time considering how to translate your scenario of interest into adjustments that the model accepts (i.e., what can we actually change or control in the application).
 
 #. Water transfers within a region
 #. Water transfers between regions
@@ -224,7 +225,6 @@ to spend time considering how to translate your scenario of interest into adjust
 
 .. todo:: flesh out section stub
 
-e.g. what can we actually change or control in the application
 
 .. seealso::
     :ref:`TranslatingCommonScenariosDoc`
