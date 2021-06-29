@@ -20,6 +20,7 @@ into a set of regions with input data that are modeled independently.
     ModelRuns/model_runs.rst
     MakeModelRun/make_model_run.rst
     InputDataViewer/input_data_viewer.rst
+    Settings/settings.rst
     Troubleshooting/troubleshooting.rst
     Changelog/changelog.rst
     genindex.rst
