@@ -127,6 +127,8 @@ title or description will be reverted to their old values.
     single: model run; metadata; status
     double: model run; status
 
+.. _ModelRunStatusSection:
+
 Model Run Status Messages and Metadata
 ----------------------------------------
 .. figure:: status_and_metadata.png
