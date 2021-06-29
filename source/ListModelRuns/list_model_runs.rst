@@ -10,8 +10,6 @@ Finding Model Runs You've Created
 
 .. _FindingModelRunsOverviewSection:
 
-.. todo:: Incorporating Alex's contributions to this section now
-
 Overview
 ----------------
 When running the |project_name| model, your inputs and results are saved as a Model Run in the application that you can
