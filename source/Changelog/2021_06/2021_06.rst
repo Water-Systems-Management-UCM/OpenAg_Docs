@@ -5,6 +5,19 @@ Visual Changelog - June 2021
    :maxdepth: 1
    :caption: OpenAg Changes for June 2021:
 
+Added Username to Model Run Listing
+----------------------------------------
+Now you can view the username of the person that created a model run in the listing. If you know who created a model run
+but not what it is named, it should now be easier to find!
+
+Changed Behavior for Nonoptimal Results
+-----------------------------------------
+Previously non-optimal results would show up under the "Infeasibilities" tab, but were not true infeasibilities and instead
+should be considered a warning. Results for regions that were non-optimal were also dropped, making them not comparable
+with other model runs to see how different they were. Now, the warnings are clearer when the result is non-optimal vs.
+infeasible and give suggestions for how to respond. Additionally, the Infeasibilities tab has been renamed "Issues
+and Infeasibilities" to reflect that not all regional models listed there are infeasible.
+
 Model Version Provided in Status Box
 ----------------------------------------
 .. figure:: ../../ModelRuns/status_and_metadata.png

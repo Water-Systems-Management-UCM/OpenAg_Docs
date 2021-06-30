@@ -66,7 +66,7 @@ available within another item.
     * Crop Modifications
         * Table
         * Scatterplot
-#. Infeasibilities (not always shown)
+#. Issues and Infeasibilities (not always shown)
 #. Results
     * Charts
     * Map
@@ -148,7 +148,7 @@ When viewing a model run, you may see three main status messages and one modifie
 * Results Available (Complete)
     The model run has completed running and results are loaded and available for viewing. When this status is shown,
     the application will show results by default instead of the inputs.
-* Results Available - Contains Infeasibilities
+* Results Available - Contains Issues or Infeasibilities
     The same as :code:`Complete`, but warning that some regions had infeasible results. For more information on
     infeasibilities, see :ref:`InfeasibilitiesSection`. You may wish to create a new version of this model run
     to address the infeasibilities as the total results may be invalid.
@@ -203,8 +203,8 @@ See :ref:`ViewingModelRunResultsDoc` for complete documentation on model run res
 
 .. _InfeasibilitiesSection:
 
-Infeasibilities
--------------------
+Issues and Infeasibilities
+---------------------------------
 In some cases, the provided inputs can result in an "infeasible" model run - one where the conditions provided could
 not create a viable set of results. For example, if a region has two crops and the inputs specify to reduce land
 by 50%, but also specify a minimum crop area restriction for each crop of 70%, then the model can't reduce either crop's
@@ -220,3 +220,7 @@ and :code:`Inputs` tabs for Infeasibilities that shows you which regions had inf
 model run, pay special attention to the settings for those regions. If it lists regions that you did not create explicit
 region modifications for, then pay attention to the settings on the :ref:`All Regions card <AllRegionsAllCropsSection>`
 and also to any :ref:`crop area restrictions <AdjustingCropAreaRestrictions>` you may have set.
+
+In other cases, the model run may be feasible, but may fail to identify the optimal solution for specific regions. In
+that case the :code:`Issues and Infeasibilites` tab will contain a record indicating which region had the issue and
+that the result was non-optimal.
