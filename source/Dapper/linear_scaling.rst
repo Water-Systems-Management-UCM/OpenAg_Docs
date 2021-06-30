@@ -13,7 +13,7 @@ Simple Modeling and Linear Scaling
 
 Where the Full model assumes that within regions resources can be freely traded, allowing multiple independent farmers
 to find optimal economic outcomes as resource availability changes, the simplified version assumes that changes
-to resource availability apply evenly to everyone, and they are unable to take steps to further improve their outcomes
+to resource availability apply evenly to all farmers, and they are unable to adapt and take steps to further improve their outcomes
 as their resource availability changes. We sometimes think of this as a "worst case scenario" outcome in that, when using
 the model to reduce resource availability, the Simple model gives us a reasonable lower bound on gross revenues and can
 be used with the Full PMP-modeled version of the same data to estimate a range of outcomes.

@@ -52,22 +52,22 @@ in the table is not included in the model.
     Then dropped the wheat fallow, fallow, other, and the header row that was inserted
 
 .. csv-table::
-    :header: OpenAg_Crop,WSDA_Level_1
+    :header: OpenAg_Crop, WSDA_Level_1
 
-    APPLE,Apple
-    BEAN,"Bean, Dry  |  Bean, Garbanzo  |  Bean, Green  |  Chickpea  |  Legume Cover  |  Lentil  |  Pea, Dry  |  Pea, Green  |  Pea/Vetch  |  Soybean"
-    BLUEBERRY,Blueberry
-    CANEBERRY,"Berry, Unknown  |  Caneberry  |  Cranberry  |  Currant  |  Strawberry"
-    CHERRY,Cherry
-    CORN,"Corn, Field  |  Corn, Sweet  |  Corn, Unknown"
-    GRAIN,"Alfalfa Seed  |  Alfalfa, Seed  |  Barley  |  Bean Seed  |  Bean, Seed  |  Beet Seed  |  Beet, Seed  |  Bluegrass Seed  |  Bluegrass, Seed  |  Broccoli Seed  |  Broccoli, Seed  |  Bromegrass Seed  |  Bromegrass, Seed  |  Brussels Sprouts Seed  |  Brussels Sprouts, Seed  |  Buckwheat  |  Burnet Seed  |  Burnet, Seed  |  Cabbage Seed  |  Cabbage, Seed  |  Camelina  |  Canola  |  Carrot Seed  |  Carrot, Seed  |  Cauliflower, Seed  |  Cereal Grain, Unknown  |  Cilantro Seed  |  Cilantro, Seed  |  Clover Seed  |  Clover, Seed  |  Conifer Seed  |  Conifer, Seed  |  Corn Seed  |  Corn, Seed  |  Fescue Seed  |  Fescue, Seed  |  Flax  |  Flax Seed  |  Grass Seed  |  Grass Seed, Other  |  Grass, Seed  |  Misc. Grass Seed  |  Mustard  |  Mustard Seed  |  Mustard, Seed  |  Oat  |  Onion Seed  |  Onion, Seed  |  Pea Seed  |  Pea, Seed  |  Pepper  |  Potato Seed  |  Potato, Seed  |  Quinoa  |  Radish Seed  |  Radish, Seed  |  Reclamation Seed  |  Rye  |  Ryegrass Seed  |  Ryegrass, Seed  |  Safflower Seed  |  Safflower, Seed  |  Seed, Other  |  Seed, Unknown  |  Sorghum  |  Spinach Seed  |  Spinach, Seed  |  Sugar Beet Seed  |  Sugar Beet, Seed  |  Sunflower  |  Sunflower Seed  |  Sunflower, Seed  |  Swiss Chard Seed  |  Swiss Chard, Seed  |  Triticale  |  Wheat  |  Wildlife Feed  |  Yarrow Seed  |  Yarrow, Seed  |  Yellow Mustard"
-    GRAPE,"Grape, Concord  |  Grape, Juice  |  Grape, Table  |  Grape, Unknown  |  Grape, Wine"
-    HAY,"Alfalfa Hay  |  Alfalfa, Hay  |  Alfalfa/Grass Hay  |  Alfalfa/Grass, Hay  |  Barley Hay  |  Clover Hay  |  Clover, Hay  |  Clover/Grass Hay  |  Grass Hay  |  Grass, Hay  |  Hay/Silage , Unknown  |  Hay/Silage, Unknown  |  Oat Hay  |  Rye Hay  |  Sudangrass  |  Timothy  |  Triticale Hay"
-    HOPS,Hops
-    PASTURE,Pasture
-    PEAR,Pear
-    POTATO,Potato
-    VEGETABLE,"Artichoke  |  Asparagus  |  Beet  |  Broccoli  |  Brussels Sprouts  |  Cabbage  |  Cantaloupe  |  Carrot  |  Cauliflower  |  Cucumber  |  Garlic  |  Kale  |  Kiwi  |  Leek  |  Lettuce  |  Market Crops  |  Melon, Unknown  |  Onion  |  Peanut  |  Pumpkin  |  Radish  |  Rhubarb  |  Rutabaga  |  Spinach  |  Squash  |  Sugar Beet  |  Tomato  |  Vegetable, Unknown  |  Watermelon"
+    APPLE, Apple
+    BEAN, "Bean, Dry  |  Bean, Garbanzo  |  Bean, Green  |  Chickpea  |  Legume Cover  |  Lentil  |  Pea, Dry  |  Pea, Green  |  Pea/Vetch  |  Soybean"
+    BLUEBERRY, Blueberry
+    CANEBERRY, "Berry, Unknown  |  Caneberry  |  Cranberry  |  Currant  |  Strawberry"
+    CHERRY, Cherry
+    CORN, "Corn, Field  |  Corn, Sweet  |  Corn, Unknown"
+    GRAIN, "Alfalfa Seed  |  Alfalfa, Seed  |  Barley  |  Bean Seed  |  Bean, Seed  |  Beet Seed  |  Beet, Seed  |  Bluegrass Seed  |  Bluegrass, Seed  |  Broccoli Seed  |  Broccoli, Seed  |  Bromegrass Seed  |  Bromegrass, Seed  |  Brussels Sprouts Seed  |  Brussels Sprouts, Seed  |  Buckwheat  |  Burnet Seed  |  Burnet, Seed  |  Cabbage Seed  |  Cabbage, Seed  |  Camelina  |  Canola  |  Carrot Seed  |  Carrot, Seed  |  Cauliflower, Seed  |  Cereal Grain, Unknown  |  Cilantro Seed  |  Cilantro, Seed  |  Clover Seed  |  Clover, Seed  |  Conifer Seed  |  Conifer, Seed  |  Corn Seed  |  Corn, Seed  |  Fescue Seed  |  Fescue, Seed  |  Flax  |  Flax Seed  |  Grass Seed  |  Grass Seed, Other  |  Grass, Seed  |  Misc. Grass Seed  |  Mustard  |  Mustard Seed  |  Mustard, Seed  |  Oat  |  Onion Seed  |  Onion, Seed  |  Pea Seed  |  Pea, Seed  |  Pepper  |  Potato Seed  |  Potato, Seed  |  Quinoa  |  Radish Seed  |  Radish, Seed  |  Reclamation Seed  |  Rye  |  Ryegrass Seed  |  Ryegrass, Seed  |  Safflower Seed  |  Safflower, Seed  |  Seed, Other  |  Seed, Unknown  |  Sorghum  |  Spinach Seed  |  Spinach, Seed  |  Sugar Beet Seed  |  Sugar Beet, Seed  |  Sunflower  |  Sunflower Seed  |  Sunflower, Seed  |  Swiss Chard Seed  |  Swiss Chard, Seed  |  Triticale  |  Wheat  |  Wildlife Feed  |  Yarrow Seed  |  Yarrow, Seed  |  Yellow Mustard"
+    GRAPE, "Grape, Concord  |  Grape, Juice  |  Grape, Table  |  Grape, Unknown  |  Grape, Wine"
+    HAY, "Alfalfa Hay  |  Alfalfa, Hay  |  Alfalfa/Grass Hay  |  Alfalfa/Grass, Hay  |  Barley Hay  |  Clover Hay  |  Clover, Hay  |  Clover/Grass Hay  |  Grass Hay  |  Grass, Hay  |  Hay/Silage , Unknown  |  Hay/Silage, Unknown  |  Oat Hay  |  Rye Hay  |  Sudangrass  |  Timothy  |  Triticale Hay"
+    HOPS, Hops
+    PASTURE, Pasture
+    PEAR, Pear
+    POTATO, Potato
+    VEGETABLE, "Artichoke  |  Asparagus  |  Beet  |  Broccoli  |  Brussels Sprouts  |  Cabbage  |  Cantaloupe  |  Carrot  |  Cauliflower  |  Cucumber  |  Garlic  |  Kale  |  Kiwi  |  Leek  |  Lettuce  |  Market Crops  |  Melon, Unknown  |  Onion  |  Peanut  |  Pumpkin  |  Radish  |  Rhubarb  |  Rutabaga  |  Spinach  |  Squash  |  Sugar Beet  |  Tomato  |  Vegetable, Unknown  |  Watermelon"
 
 
 Crop Water Demand
@@ -122,8 +122,12 @@ Statistics.
 
 Supply elasticities
 ----------------------
-.. todo:: to fill in from Jose
-
+Own-price supply elasticities are used for the calibration of the exponential cost function parameter gamma,
+which defines the shape of the cost function curvature and the concavity of the model. Own-price supply elasticities
+represent the response in produced land for a crop to a change in crop price by farmers. Crop-specific values are available
+at a regional or state level and are usually obtained from econometric studies, however the literature for specific crops
+and specific agricultural regions is Washington is limited. For this reason we assume that these values respond similarly
+for specific crops in other agricultural regions like California.
 
 
 .. rubric:: Footnotes

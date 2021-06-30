@@ -10,12 +10,14 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 # we import this to modify image handling - see further down
 from sphinx.builders.html import StandaloneHTMLBuilder
+
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 # -- Project information -----------------------------------------------------
 
@@ -61,7 +63,7 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+todo_include_todos = False if on_rtd else True  # don't show TODOs in public builds, but show them in private ones
 
 # include numbering for figures
 numfig = True

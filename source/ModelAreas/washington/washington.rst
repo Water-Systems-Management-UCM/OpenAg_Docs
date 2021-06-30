@@ -8,7 +8,11 @@ The Washington State Model
 Model Overview
 ------------------
 Data collected for use in the model includes a variety of types and spans a decade (2008-2018), although only a selected
-subset (2016-2018) is used in model calibration at this time. Spatial coverage of the model is nearly the entire state, with the
+subset (2016-2018) is used in irrigated lands model calibration at this time. The nonirrigated lands model estimates
+regression parameters based on the entire 2008-2018 dataset, but runs scenario modeling with respect to a 2016-2018 base case.
+The nonirrigated lands model also includes only a subset of crops: grain, bean, alfalfa, and corn.
+
+Spatial coverage of the model is nearly the entire state, with the
 exception of some regions which lack the agricultural complexity to effectively model (see :ref:`FixedRegionsSection` for more information),
 and the spatial scale of the model is a modified version of Washington's `Water Resource Inventory Areas (WRIA) <https://waecy.maps.arcgis.com/apps/webappviewer/index.html?id=996e6b21ae394cc3a3b63c6da0c3aa0a>`_.
 Models are run at an annual scale, as sub-annual planting decisions cannot be captured using available data.
@@ -46,7 +50,7 @@ Regions
 
     "Alkali - Squilchuck", "40", "Full"
     "Cedar - Sammamish", "8", "Simple"
-    "Chambers - Clover", "12", "Simple"
+    "Chambers - Clover", "12", "Insufficient Ag Land"
     "Chelan", "47", "Full"
     "Colville", "59", "Full"
     "Cowlitz", "26", "Full"
