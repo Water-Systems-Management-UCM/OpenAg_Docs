@@ -29,4 +29,9 @@ Where the PMP model focuses on decisions of land use and water allocation with u
       - Rainfall, crop price
       - Crop yield, gross revenue
 
-The nonirrigated lands model is not included for all regions or all model areas - you will know a region includes rainfall data if the region has a slider to adjust rainfall in the web application.
+The nonirrigated lands model is not included for all regions or all model areas - you will know a region includes rainfall
+data if the region has a slider to adjust rainfall in the web application.
+
+.. warning::
+    Note that the nonirrigated lands model does not take into account land availability adjustments, which can cause
+    apparently skewed results for crops with large proportions of unirrigated cropland when making land adjustments.

@@ -15,6 +15,10 @@ difference between these to remove artifacts introduced by the regression itself
 OpenAg calculates gross revenues based on the new yield estimates in a similar manner to the PMP model’s revenue
 calculation: :code:`crop area (acres) * estimated yield (tons/acre) * adjusted price ($/ton)`
 
+.. warning::
+    When calculating revenue and area, nonirrigated lands model does not currently take into account crop area adjustment
+    parameters. Those will only affect irrigated lands models.
+
 The regression model uses a more limited dataset than the PMP model, depending on how much agriculture is irrigated
 or nonirrigated. In order to reduce effects from small samples, it is limited to crops with large amounts of nonirrigated
 area, and it is only used in regions where nonirrigated agriculture accounts for more than 5% of total agriculture.
