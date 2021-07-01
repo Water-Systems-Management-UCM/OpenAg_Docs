@@ -1,3 +1,14 @@
+.. index::
+    single: model
+    double: model; inputs
+    double: model; outputs
+    single: model; irrigated lands
+    single: model; nonirrigated lands
+    single: model; simple
+    single: simple model
+    single: model; full
+    single: full model
+
 .. _ModelsAvailableDoc:
 
 Models Available in OpenAg
@@ -28,6 +39,8 @@ Where the PMP model focuses on decisions of land use and water allocation with u
     * - :ref:`Nonirrigated Lands Regression Model <NonIrrigatedDoc>`
       - Rainfall, crop price
       - Crop yield, gross revenue
+
+All :ref:`models produce employment and value add outputs <SummaryResultsSection>` (when configured) through a connection to IMPLAN data.
 
 The nonirrigated lands model is not included for all regions or all model areas - you will know a region includes rainfall
 data if the region has a slider to adjust rainfall in the web application.

@@ -11,6 +11,21 @@ Viewing Model Run Results and Raw Model Input Data
 Base Case
 ---------------
 
+Filters
+------------------
+
+General Features
+___________________
+
+Crop Filtering
+___________________
+
+Region Filtering
+___________________
+
+Irrigated and Nonirrigated Land Filtering
+______________________________________________
+
 Charts
 --------------
 
@@ -32,6 +47,16 @@ Chart Options
 Tabular Display of Chart/Per-Crop Data
 ++++++++++++++++++++++++++++++++++++++++++++
 
+Map View
+------------------------
+
+.. _SummaryResultsSection:
+
+Summary View
+-------------------
+
+Table View
+-----------------
 
 
 

@@ -127,19 +127,47 @@ and change the settings to apply to all regions in the model area that grow Appl
 If you change your mind and wish to remove the region-link, simply remove the entire card. You may still add the main
 crop commodity's card both before and after removal of a region-linked card.
 
+
+.. index::
+    single: modifications; crop area restrictions
+    single: crop area restrictions
+
 .. _AdjustingCropAreaRestrictions:
 
 Adjusting Crop Area Restrictions
 -----------------------------------
-
-.. todo:: fill in
-
-See :ref:`AdjustModificationParametersSection` for information on adjust prices and yield parameters.
-
-Constraints double slider with input boxes and adjustments on both sides
+Crop area restrictions allow you to provide hard constraints (rules that must be followed by the model) on the amount
+of land area a crop can be grown on in the model run, relative to its calibrated value. By default, the model's only
+area constraint is that total land area in the region cannot expand, but you may add crop-specific or region and crop-specific
+constraints on land area using the :code:`Crop Area Restrictions` input parameter.
 
 .. image:: crop_area_restrictions_parameter.png
 
+1. By default, there is no lower limit on the amount of area a crop can occupy - it can go to zero, though in the Full PMP-modeled formulation of the model, it is unlikely it will reduce acreage of any crop in a region to zero. To adjust the lower limit, modify the left side of the slider or the value in the box to its left, similar to other parameters
+2. If you wish to put an upper limit, either to restrict how much a crop may grow in area in response to other changing economic factors (such as if another water-intensive crop loses water), then click the `Add Upper Limit` option on the right side of the slider
+3. The slider will become double ended, with the option on the left side representing the minimum crop area and the option on the right side the maximum crop area - you can adjust each independently. When the upper limit is activated, the area in blue on the slider between the two dots represents the available range of land area for the crop.
+4. To remove the upper limit after adding it, click the trash icon to the right of the upper limit. It will then revert to having no upper limit.
+
+Uses of crop area restrictions
+__________________________________
+Crop area restrictions provide a safety net for the operator of the model. For example, imagine a region with a low value,
+but high acreage crop such as Hay and a high value crop such as Apples. In a scenario where you lower the available water,
+the model may reduce significant acreage of Hay in order to keep water available for apples. You may know that the
+amount of acreage reduced of Hay is unrealistic relative to the amount of water trading seen on the ground. Crop area restrictions let you
+limit the model's ability to take water from Hay to support Apples in this scenario. Setting a lower limit on Hay (e.g. 80%)
+would mean that the model can only utilize 20% of the water that normally goes to Hay to support another crop. Alternatively,
+setting an upper limit on the Apples crop would prevent it from growing while allowing the model to reallocate water from
+lower value crops as needed. The choice to use upper or lower limits will depend on the total set of restrictions you are
+adding and what you are attempting to model.
+
+.. warning::
+    Care should be exercised with crop area restrictions - in the example above with only two crops, if both crops
+    had a minimum restriction of 90% set on them, but the water in the region was reduced to 80%, the model run will
+    come back :ref:`"infeasible" <InfeasibilitiesSection>` - that is, the model could not find a set of values that satisfies the requirements. Infeasible
+    models should not be compared to other models and instead you should create a new model run to resolve the infeasibilities.
+
+.. seealso::
+    See :ref:`AdjustModificationParametersSection` for information on adjust prices and yield parameters.
 
 .. _AdditionalReadingCropModificationsSection:
 
