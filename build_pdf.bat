@@ -10,4 +10,4 @@ rem then build the PDF
 build\latex\make.bat all-pdf
 
 rem copy the PDF to the repo root
-copy build\latex\openag.pdf openag_docs.pdf
+copy build\latex\openag_documentation.pdf openag_docs.pdf

@@ -53,6 +53,7 @@ in the table is not included in the model.
 
 .. csv-table::
     :header: OpenAg_Crop, WSDA_Level_1
+    :widths: 30, 70
 
     APPLE, Apple
     BEAN, "Bean, Dry  |  Bean, Garbanzo  |  Bean, Green  |  Chickpea  |  Legume Cover  |  Lentil  |  Pea, Dry  |  Pea, Green  |  Pea/Vetch  |  Soybean"
