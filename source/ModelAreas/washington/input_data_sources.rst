@@ -83,12 +83,12 @@ regions and area-weighted averaging was used to approximate monthly crop water d
 
 Precipitation and Temperature
 -------------------------------
-
-.. todo:: fill in
+Rainfall data were obtained from PRISM's monthly 4km gridded normals. Monthly data were summed into seasons (summer, fall, winter,
+and spring) and the mean grid value within each region was extracted as the region's rainfall value for each time period.
 
 Surface Water Deliveries
 ---------------------------
-.. todo:: To fill in once edits are complete
+Surface water delivery data were obtained from the US Bureau of Reclamation via a Freedom of Information Act request.
 
 Crop Price and Yield
 -------------------------
