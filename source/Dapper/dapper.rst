@@ -41,4 +41,5 @@ Please see the following articles for additional details on how these models wor
     linear_scaling.rst
     outputs.rst
     model_limitations.rst
+    net_revenues.rst
     irrigated_nonirrigated_data_split.rst
