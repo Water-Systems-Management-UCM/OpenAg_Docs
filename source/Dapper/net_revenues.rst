@@ -23,14 +23,14 @@ returns to land and management from all crops or total producer surplus using in
 (land, water, labor and other) by crop and region. Given non-linearities in the objective
 function, the total net returns might not coincide with those under baseline conditions,
 which assume average costs are in place despite user modifications to land, water, price,
-or yield. OpenAg overcomes this disparity in net returns by postprocessing land use allocation
-from the optimized model, using gross revenues and average costs to obtain net returns by crop
-for each modeled scenario.
+or yield.
 
-Thus it is possible to create scenarios that diverge from the baseline and the optimized
-aggregate of all crops may suggest negative net returns for individual crops even though
-the aggregate of all crops is maximized. The above described postprocessing overcomes the
-issue by assuming the resulting cropping patterns will maintain crop profitability by using
+It is possible to create scenarios that diverge from the baseline, even though scenario optimized
+results may suggest negative net returns for individual crops since
+the aggregate of all crops is maximized. The disparity in net returns explained above is solved
+by postprocessing land use allocation from the optimized model, using gross revenues and average
+costs to obtain net returns by crop for each modeled scenario. OpenAg assumes the resulting
+cropping patterns will maintain crop profitability by using
 the average costs. Growers typically take action to prevent losses by, for instance, cutting
 back on variable costs for the year, such as supplies and labor. OpenAg may adjust costs in
 net revenue estimates to account for such potential cost downscaling by scaling variable costs
