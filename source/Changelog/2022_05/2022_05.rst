@@ -1,0 +1,25 @@
+Visual Changelog - May 2022
+================================
+
+Region Groups
+-------------------------------
+
+.. figure:: group_inputs.*
+
+|project_name| now supports groupings of regions during model run creation to speed input of complex sets of
+model parameters. Documentation will be forthcoming, but the feature is available now for the Sacramento-San Joaquin Delta
+model.
+
+Groups work in-between the settings for All Regions and a single region by apply a setting to many regions at once that
+overrides the All Regions setting, but can still be overridden further by a card for a specific region.
+
+Net Revenue
+-------------------------------
+Net revenue data has been added as a model output :ref:`using a new formulation <NetRevenueLimitsDoc>`. Net revenue
+results should be used carefully and must be enabled for the model area by an administrator and must be enabled further
+by each user in their settings section.
+
+New Basemaps Available in Data Viewer
+--------------------------------------------
+The default basemap |project_name| previously used was no longer available, so we found and added new basemaps you can
+select when viewing model data (not yet during model run creation).
