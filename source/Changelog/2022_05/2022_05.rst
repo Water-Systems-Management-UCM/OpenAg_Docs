@@ -15,11 +15,11 @@ overrides the All Regions setting, but can still be overridden further by a card
 
 Net Revenue
 -------------------------------
-Net revenue data has been added as a model output :ref:`using a new formulation <NetRevenueLimitsDoc>`. Net revenue
+Net revenue data have been added as a model output :ref:`using a new formulation <NetRevenueLimitsDoc>`. Net revenue
 results should be used carefully and must be enabled for the model area by an administrator and must be enabled further
 by each user in their settings section.
 
 New Basemaps Available in Data Viewer
 --------------------------------------------
 The default basemap |project_name| previously used was no longer available, so we found and added new basemaps you can
-select when viewing model data (not yet during model run creation).
+select when viewing model data (not yet during modl run creation).

@@ -1,0 +1,20 @@
+Visual Changelog - July 2022
+================================
+
+Changes to Visualizer Controls and Region Group Visualizaton
+-------------------------------------------------------------
+
+.. figure:: OpenAgNewFilterControls.*
+
+Building on the release of region groupings, the application now supports
+visualizing results with filters for region groups. Selecting a region
+group in the filter is the equivalent to filtering to all the individual
+regions within the group - those regions are also selected in the region
+filter so that they can be de-selected or expanded upon for fine-tuning.
+
+The addition of region groupings to the existing set of filters necessitated
+a suite of changes to how filter controls are displayed. Now, tabs with
+many available filters will show a menu of available filter options on the left
+that can be toggled on or off. Filters will remain active even while not shown,
+but the controls for the filters can be shown/hidden in order to keep the
+interface more usable and to make it easier to find controls.
