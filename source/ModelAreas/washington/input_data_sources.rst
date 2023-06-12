@@ -1,6 +1,6 @@
 .. _WashingtonModelInputsDoc:
 
-Input Data and Processing
+Washington Input Data and Processing
 ===================================
 
 .. contents::

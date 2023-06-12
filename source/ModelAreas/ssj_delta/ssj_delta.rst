@@ -35,6 +35,15 @@ expected prices, subsidies, yields, and costs, as well as restrictions on land, 
 crop specific restrictions. This is undertaken by solving the non-linear program
 described by equations 1 to 5 below.
 
+.. toctree::
+    :maxdepth: 2
+
+    input_data_sources.rst
+
+.. contents::
+    :local:
+    :depth: 2
+
 Commodity Groupings
 -----------------------
 
@@ -73,5 +82,4 @@ Commodity Groupings
 
 Getting Access
 ----------------
-The web platform is available now as a beta version at https://openag.ucmerced.edu.
-To get access for additional staff, please `contact Nick Santos <https://nicksantos.com/about-and-contact/>`_.
+To get access for additional staff, please `contact the WSM Lab <https://wsm.ucmerced.edu/contact-us/>`_.
