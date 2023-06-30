@@ -1,3 +1,6 @@
+.. index::
+    triple: delta; model area; data sources
+
 .. _SSJDeltaModelInputsDoc:
 
 SSJ Delta Input Data and Processing
@@ -24,7 +27,7 @@ The following table summarizes data sources used for defining model inputs for t
     Crop price, County, Annual, `USDA National Agricultural Statistics Service (NASS) <https://www.nass.usda.gov/>`_ and `CDFA Agricultural Statistics Review <https://www.cdfa.ca.gov/statistics/>`_
     Crop yield, County, Annual, `USDA National Agricultural Statistics Service (NASS) <https://www.nass.usda.gov/>`_ and `CDFA Agricultural Statistics Review <https://www.cdfa.ca.gov/statistics/>`_
     Crop production costs, County/macro-region, Sparse, `UC Davis Cooperative Extension Cost and Return Studies <https://coststudies.ucdavis.edu/en/>`_
-    Supply elasticities, , Annual,
+    Supply elasticities, , Annual, County Ag Commissioner Reports
 
 
 Land Use and Crop Groups
@@ -80,3 +83,29 @@ too small to effectively allocate land between.
     Sugar Beets, Sugarbeet, Sugar beet
     Subtropical, "Avocado | Citrus (other) | Fig | Grapefruit | Kiwi | Kumquat | Lemon | Olive | Orange | Papaya | Tangelo | Tangerine", Olive
     Vineyards, Grape (various), Wine Grapes
+
+
+Region Boundaries and Land Use
+---------------------------------
+Adaptation of Delta Region Boundary Layers
+____________________________________________
+The original Delta island boundaries shapefile provided by the Delta Stewardship Council contained some empty space within the DWR Legal Delta Boundary, in which sections of the Delta not considered “islands” were not covered by polygons. To ensure inclusion of these areas in the agricultural model, polygons are created in each of the blank spaces and aggregated into three separate polygons for southern, middle and northern regions.
+
+Intersecting Delta Regions with Cropped Polygons
+_________________________________________________
+The land use shapefiles for each year (sourced from DWR/Land IQ) are clipped to fit within the DWR Legal Delta Boundary. The resulting layer subset is then intersected with the Delta Island Boundaries layer to yield the observed cropping pattern by island. In order to process the data, the area was then calculated via the geoprocessing tool to calculate geometry for each individual polygon. The final shapefile for each year is then exported from a GIS program to a comma separated value (.csv) file for postprocessing.
+
+Land Use
+____________
+Land use data is obtained by bridging commodities to crop groups and assigning each region in the study area a unique Delta region code. The “ACRES” attribute in the employed Land IQ dataset is then cross-referenced with the calculated area of each polygon to ensure acreage data is not over-projected; if the calculated polygon area is less than the attribute area, then the polygon area is used to prevent discrepancies in the physical land available for farming. Final acres by crop group are aggregated for each region and exported for use as model inputs.
+When assigning crop groups, care was taken to ensure that crops with prominent acreages and/or revenue were separated into their own respective groups. Turf, eucalyptus and nursery trees were excluded from the totals as they are not considered traditional agricultural products and prove challenging to accurately model (see section 3.3). Double cropping was included in total acreage and revenue, consisting primarily of small grains grown on fields that are typically fallowed.
+
+
+Production costs are broken into five major cost categories: land rental, labor, supplies, establishment (if applicable), and water. Proxy crops are assigned to each crop group and costs are obtained from UC Davis Cost and Return studies pertinent to that proxy group (see Table A3 of the appendix). Costs are inflated or deflated from the study year to 2015 dollars using Equation :math:numref:`eq1`:
+
+.. math:: C_{2015} = C_n(1-I_n)
+    :label: eq1
+
+where :math:`C_{2015}` is the cost in 2015 dollars, :math:`C_n` is the nominal cost in the study year, n, and :math:`I_n` is the cumulative inflation rate between year n and 2015.
+
+Costs in the current model version draw information from several studies and employ an average cost for each major cost type based on the post-inflation value across all studies utilized (see Table A3 of the appendix for a full list of all studies by crop group). Water is assumed to cost $10/AF as a baseline. Current cost assessments do not include annualized establishment costs; however, data is available to include this category in future economic modeling that considers annualized capital costs.

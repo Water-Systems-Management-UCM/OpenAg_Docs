@@ -1,3 +1,7 @@
+.. index::
+    double: model area; delta
+
+
 .. _SacramentoSanJoaquinModelDoc:
 
 The Sacramento-San Joaquin Delta Model

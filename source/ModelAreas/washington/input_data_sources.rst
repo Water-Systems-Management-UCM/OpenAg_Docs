@@ -1,3 +1,6 @@
+.. index::
+    triple: washington; model area; data sources
+
 .. _WashingtonModelInputsDoc:
 
 Washington Input Data and Processing

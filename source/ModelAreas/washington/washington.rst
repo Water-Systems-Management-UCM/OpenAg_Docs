@@ -1,3 +1,6 @@
+.. index::
+    double: washington; model area
+
 .. _WashingtonModelDoc:
 
 The Washington State Model
