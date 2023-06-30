@@ -100,7 +100,8 @@ ____________
 Land use data is obtained by bridging commodities to crop groups and assigning each region in the study area a unique Delta region code. The “ACRES” attribute in the employed Land IQ dataset is then cross-referenced with the calculated area of each polygon to ensure acreage data is not over-projected; if the calculated polygon area is less than the attribute area, then the polygon area is used to prevent discrepancies in the physical land available for farming. Final acres by crop group are aggregated for each region and exported for use as model inputs.
 When assigning crop groups, care was taken to ensure that crops with prominent acreages and/or revenue were separated into their own respective groups. Turf, eucalyptus and nursery trees were excluded from the totals as they are not considered traditional agricultural products and prove challenging to accurately model (see section 3.3). Double cropping was included in total acreage and revenue, consisting primarily of small grains grown on fields that are typically fallowed.
 
-
+Costs of Production
+______________________
 Production costs are broken into five major cost categories: land rental, labor, supplies, establishment (if applicable), and water. Proxy crops are assigned to each crop group and costs are obtained from UC Davis Cost and Return studies pertinent to that proxy group (see Table A3 of the appendix). Costs are inflated or deflated from the study year to 2015 dollars using Equation :math:numref:`eq1`:
 
 .. math:: C_{2015} = C_n(1-I_n)
@@ -109,3 +110,169 @@ Production costs are broken into five major cost categories: land rental, labor,
 where :math:`C_{2015}` is the cost in 2015 dollars, :math:`C_n` is the nominal cost in the study year, n, and :math:`I_n` is the cumulative inflation rate between year n and 2015.
 
 Costs in the current model version draw information from several studies and employ an average cost for each major cost type based on the post-inflation value across all studies utilized (see Table A3 of the appendix for a full list of all studies by crop group). Water is assumed to cost $10/AF as a baseline. Current cost assessments do not include annualized establishment costs; however, data is available to include this category in future economic modeling that considers annualized capital costs.
+
+Crop Prices and Yields
+________________________
+Price and yield information for the selection of crops in the model are obtained by bridging commodities to crop groups and bridging from island to county. County level data for price and yield by year from the National Agricultural Statistics Service (NASS) is then assigned to each crop by island based on the bridging procedures. In cases where county-specific data was unavailable for the proxy crop, an average value for other counties intersecting the study region was substituted. For complex crop groups such as deciduous fruits and truck crops, a proxy crop is chosen to represent the group (see Table A2 of the Appendix). Prices are shown in 2015 dollars following methods analogous to those used for costs (:math:numref:`eq1`).
+
+For crop categories for which the sum of all costs exceeds the gross crop revenues, price is assumed to have an implicit subsidy such that net returns are roughly 5 percent above the total costs. While negative net returns are sometimes a reality for farmers, it is assumed that in the average most farms operate within the aforesaid profit margin. The adjustment is shown in :math:numref:`eq2` below:
+
+.. math:: p = 1.05(\frac{\omega_{land} + \omega_{supply} + x_{water}\omega_{water}}{y})
+    :label: eq2
+
+where :math:`\omega` refers to the cost associated with each input ($/ac), :math:`x_{water}` is the applied water requirement per acre of land (AF/ac) and y is the yield (ton/ac). This correction allows for a 5% profit margin in final production calculations, yet it can be adjusted or eliminated or updated as better production cost information becomes available. Prices and derivative values (such as gross returns and profits) represented here reflect base values prior to corrections to the subset of crops.
+
+Applied Water
+_______________
+Applied water data is provided at the detailed analysis unit and county level (DAU-Co) and is aggregated to individual island regions by applying a weighted average using Equations :math:numref:`eq3` and :math:numref:`eq4` below:
+
+.. math:: AW_{ik} = \frac{\sum_{w=1}^{n}l_{iw}AW_{iw}}{\sum_{w=1}^{n}l_{iw}}
+    :label: eq3
+
+
+.. math:: AW_{ij} = \sum_{k=1}^{n}f_{jk}AW_{ik}
+    :label: eq4
+
+where :math:`i` is the crop index, :math:`k` is the DAU index, :math:`w` is the county index for each DAU, :math:`j` is the district index, :math:`l` is irrigated acreage and :math:`f` represents the vector of area fractions of DAU’s for a given island. Prior to integrating data at the island level, missing data for individual DAU’s by crop group are patched with the average applied water value for all other DAU’s across the study area. Applied water data for 2015 is used for all model years (2014-2017) due to a relatively low inter-annual variability across the study region.
+
+
+Additional Tables
+--------------------
+Region names and associated IDs
+_______________________________________
+
+.. csv-table::
+    :header: Region Name, ID, County
+    :widths: auto
+
+    Atlas Tract, DAP001, San Joaquin
+    Bacon Island, DAP002, San Joaquin
+    Bethel Island, DAP003, Contra Costa
+    Big Break, DAP004, Contra Costa
+    Bishop Tract/Dlis-14, DAP005, San Joaquin
+    Bixler Tract, DAP006, Contra Costa
+    Bouldin Island, DAP007, San Joaquin
+    Brack Tract, DAP008, San Joaquin
+    Bradford Island, DAP009, Contra Costa
+    Brannan-Andrus, DAP010, Sacramento
+    Browns Island, DAP011, Contra Costa
+    Byron Tract, DAP012, Contra Costa
+    Cache Haas Area, DAP013, Solano
+    Canal Ranch Tract, DAP014, San Joaquin
+    Central Stockton, DAP015, San Joaquin
+    Chipps Island South, DAP016, Solano
+    Clifton Court Forebay, DAP017, Contra Costa
+    Coney Island, DAP018, Contra Costa
+    Dead Horse Island, DAP019, Sacramento
+    Decker Island, DAP020, Solano
+    Dlis-01 (Pittsburg Area), DAP021, Contra Costa
+    Dlis-02 (Antioch Area), DAP022, Contra Costa
+    Dlis-03 (Lower Sherman Island), DAP023, Sacramento
+    Dlis-04 (West Island), DAP024, Sacramento
+    Dlis-05 (Donlon Island), DAP025, Sacramento
+    Dlis-06 (Oakley Area), DAP026, Contra Costa
+    Dlis-07 (Knightsen Area), DAP027, Contra Costa
+    Dlis-08 (Discovery Bay Area), DAP028, Contra Costa
+    Dlis-09 (Byron Area), DAP029, Contra Costa
+    Dlis-10, DAP030, Contra Costa
+    Dlis-12 (Paradise Cut), DAP031, San Joaquin
+    Dlis-15, DAP032, San Joaquin
+    Dlis-16 (Lodi), DAP033, San Joaquin
+    Dlis-17, DAP034, San Joaquin
+    Dlis-18, DAP035, San Joaquin
+    Dlis-19 (Grizzly Slough Area), DAP036, Sacramento
+    Dlis-20 (Yolo Bypass), DAP037, Yolo
+    Dlis-21, DAP038, Solano
+    Dlis-22 (Rio Vista), DAP039, Solano
+    Dlis-23 (Georgiana Oxbow), DAP040, Sacramento
+    Dlis-62, DAP042, Solano
+    Dlis-63 (Grizzly Island Area), DAP043, Solano
+    Dlis-64, DAP044, Contra Costa
+    Drexler Pocket, DAP045, San Joaquin
+    Drexler Tract, DAP046, San Joaquin
+    Dutch Slough, DAP047, Contra Costa
+    Egbert Tract, DAP048, Solano
+    Ehrheardt Club, DAP049, Sacramento
+    Empire Tract, DAP050, San Joaquin
+    Fabian Tract, DAP051, San Joaquin
+    Fay Island, DAP052, San Joaquin
+    Franks Tract, DAP053, Contra Costa
+    Glanville, DAP054, Sacramento
+    Glide District, DAP055, Yolo
+    Grand Island, DAP056, Sacramento
+    Hastings Tract, DAP057, Solano
+    Holland Tract, DAP058, Contra Costa
+    Holt Station, DAP059, San Joaquin
+    Honker Lake Tract, DAP060, San Joaquin
+    Hotchkiss Tract, DAP061, Contra Costa
+    Ida Island, DAP062, Sacramento
+    Jersey Island, DAP063, Contra Costa
+    Jones Tract (Lower And Upper), DAP064, San Joaquin
+    Kasson District, DAP065, San Joaquin
+    King Island, DAP066, San Joaquin
+    Kings Island, DAP067, San Joaquin
+    Libby Mcneil, DAP068, Sacramento
+    Liberty Island, DAP069, Solano
+    Lisbon District, DAP070, Yolo
+    Little Egbert Tract, DAP071, Solano
+    Little Franks Tract, DAP072, Contra Costa
+    Little Mandeville Island, DAP073, San Joaquin
+    Long Island, DAP074, Sacramento
+    Lower Roberts Island, DAP075, San Joaquin
+    Maintenance Area 9 North, DAP076, Sacramento
+    Maintenance Area 9 South, DAP077, Sacramento
+    Mandeville Island, DAP078, San Joaquin
+    Mccormack-Williamson Tract, DAP079, Sacramento
+    Mcdonald Island, DAP080, San Joaquin
+    Mcmullin Ranch, DAP081, San Joaquin
+    Medford Island, DAP082, San Joaquin
+    Merritt Island, DAP083, Yolo
+    Middle & Upper Roberts Island, DAP084, San Joaquin
+    Middle Delta Extra, DAP085, Contra Costa
+    Mildred Island, DAP086, San Joaquin
+    Mossdale Island, DAP087, San Joaquin
+    Netherlands, DAP088, Yolo
+    New Hope Tract, DAP089, San Joaquin
+    North Delta Extra, DAP090, Solano
+    North Stockton, DAP091, San Joaquin
+    Palm-Orwood, DAP092, Contra Costa
+    Paradise Junction, DAP093, San Joaquin
+    Pearson District, DAP094, Sacramento
+    Pescadero District, DAP095, San Joaquin
+    Peters Pocket, DAP096, Solano
+    Pico-Naglee, DAP097, San Joaquin
+    Prospect Island, DAP098, Solano
+    Quimby Island, DAP099, Contra Costa
+    Randall Island, DAP100, Sacramento
+    Reclamation District 17, DAP101, San Joaquin
+    Rindge Tract, DAP102, San Joaquin
+    Rio Blanco Tract, DAP103, San Joaquin
+    River Junction, DAP104, San Joaquin
+    Rough And Ready Island, DAP105, San Joaquin
+    Ryer Island, DAP106, Solano
+    Sherman Island, DAP107, Sacramento
+    Shima Tract, DAP108, San Joaquin
+    Shin Kee Tract, DAP109, San Joaquin
+    South Delta Extra, DAP110, San Joaquin
+    Stark Tract, DAP111, San Joaquin
+    Staten Island, DAP112, San Joaquin
+    Stewart Tract, DAP113, San Joaquin
+    Sutter Island, DAP114, Sacramento
+    Terminous Tract, DAP115, San Joaquin
+    Twitchell Island, DAP116, Sacramento
+    Tyler Island, DAP117, Sacramento
+    Union Island East, DAP118, San Joaquin
+    Union Island West, DAP119, San Joaquin
+    Upper Andrus Island, DAP120, Sacramento
+    Veale Tract, DAP121, Contra Costa
+    Venice Island, DAP122, San Joaquin
+    Victoria Island, DAP123, San Joaquin
+    Walnut Grove, DAP124, Sacramento
+    Walthall, DAP125, San Joaquin
+    Webb Tract, DAP126, Contra Costa
+    West Sacramento, DAP127, Yolo
+    Wetherbee Lake, DAP128, San Joaquin
+    Winter Island, DAP129, Contra Costa
+    Woodward Island, DAP130, San Joaquin
+    Wright-Elmwood Tract, DAP131, San Joaquin
+    Yolano, DAP132, Solano
