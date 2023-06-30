@@ -276,3 +276,79 @@ _______________________________________
     Woodward Island, DAP130, San Joaquin
     Wright-Elmwood Tract, DAP131, San Joaquin
     Yolano, DAP132, Solano
+
+
+UC Davis cost and return studies utilized in characterizing costs of production
+______________________________________________________________________________________
+
+.. csv-table::
+    :header: Crop Group, Study Commodity, Study Year, Study Region, Study Link
+    :widths: auto
+
+    Alfalfa, Alfalfa hay, 2014, Sacramento Valley, `link <https://web.archive.org/web/20200726023226/https://coststudyfiles.ucdavis.edu/uploads/cs_public/69/ed/69ed1c05-999e-4c06-b59f-ebe6dbcecc8a/alfalfa-drip-sv-delta-2014.pdf>`_
+    Alfalfa, Alfalfa hay, 2015, Sacramento Valley, `link <https://web.archive.org/web/20200726023219/https://coststudyfiles.ucdavis.edu/uploads/cs_public/39/f2/39f29aa5-b991-4a13-816e-c695ed243249/alfalfa-flood-sv-2015.pdf>`_
+    Alfalfa, Alfalfa hay, 2008, Sacramento Valley, `link <https://web.archive.org/web/20200209221230/https://coststudyfiles.ucdavis.edu/uploads/cs_public/f2/0e/f20ea94b-1cf4-4364-bf51-79dc5ad44790/alfalfasv08.pdf>`_
+    Almonds, Almond, 2016, Sacramento Valley, `link <https://web.archive.org/web/20201112022001/https://coststudyfiles.ucdavis.edu/uploads/cs_public/57/1c/571c5eea-78fe-4dd2-a950-cd886bc7b5cb/16almondsacvalfinaldraft81216.pdf>`_
+    Almonds, Almond, 2019, Sacramento Valley, `link <https://web.archive.org/web/20200726023255/https://coststudyfiles.ucdavis.edu/uploads/cs_public/67/b7/67b72c81-5ce0-4462-a396-fbb62ce8564e/2019sacvalleyalmonds.pdf>`_
+    Almonds, Almond, 2012, Sacramento Valley, `link <https://web.archive.org/web/20200210073320/https://coststudyfiles.ucdavis.edu/uploads/cs_public/cb/be/cbbe6906-0b85-499c-98a5-c100c468fd6f/almondsprinklesv2012.pdf>`_
+    Corn, Field corn, 2008, Sacramento Valley, `link <https://web.archive.org/web/20200209221148/https://coststudyfiles.ucdavis.edu/uploads/cs_public/35/1a/351a40bc-aa3b-45c1-9c0f-0c9e4bf688a2/cornsv2008.pdf>`_
+    Corn, Field corn, 2015, North/South San Joaquin Valley, `link <https://web.archive.org/web/20200726023321/https://coststudyfiles.ucdavis.edu/uploads/cs_public/03/dc/03dc4496-32af-47c6-b479-38e1d27c134e/15cornsacramentovalleyfinaldraftjuly20.pdf>`_
+    Cotton	Cotton, 2012, North/South San Joaquin Valley, `link <https://web.archive.org/web/20211206082818/https://coststudyfiles.ucdavis.edu/uploads/cs_public/e0/15/e0152943-7158-4e13-8ca9-f95260582a2d/cotton2012acala.pdf>`_
+    Cucurbits, Watermelon, 2003, Imperial County, `link <https://web.archive.org/web/20200209221059/https://coststudyfiles.ucdavis.edu/uploads/cs_public/a7/02/a70224a1-88de-4b9f-a314-cf3199341378/watermelon03.pdf>`_
+    Cucurbits, Watermelon, 2000, Imperial County, `link <https://coststudyfiles.ucdavis.edu/uploads/cs_public/0f/ea/0fead9bf-49b1-4187-afc1-346d3ed6187b/watermelon.pdf>`_
+
+    Dry Beans	Dry bean, 2014, Sacramento Valley, `link <>`_
+
+        Dry bean, 2014, Sacramento Valley, `link <>`_
+
+    Fresh Tomato	Fresh tomato, 2007, North/South San Joaquin Valley, `link <>`_
+
+    Grain	Wheat, 2016, Sacramento Valley, `link <>`_
+
+        Wheat, 2009, Sacramento Valley, `link <>`_
+
+    Onions	Onion, 2006, South San Joaquin Valley, `link <>`_
+
+    Orchards	Walnut, 2018, Sacramento Valley, `link <>`_
+
+        Walnut, 2015, Sacramento Valley, `link <>`_
+
+        Bartlett pear, 2010, Sacramento Valley, `link <>`_
+
+    Field	Grain silage, 2013, South San Joaquin Valley, `link <>`_
+
+    Vegetables	Asparagus, 2013, North San Joaquin Valley, `link <>`_
+
+    Pasture	Pasture, 2015, Sacramento Valley, `link <>`_
+
+        Pasture, 2015, Sacramento Valley, `link <>`_
+
+        Pasture, 2003, Sacramento Valley, `link <>`_
+
+    Potato	Potato, 2015, Intermountain, `link <>`_
+
+        Potato, 2008, Intermountain, `link <>`_
+
+    Processing Tomatoes	Processing tomato, 2017, Sacramento Valley, `link <>`_
+
+        Processing tomato, 2014, Sacramento Valley, `link <>`_
+
+        Processing tomato, 2014, Sacramento Valley, `link <>`_
+
+    Rice	Rice, 2015, Sacramento Valley, `link <>`_
+
+    Safflower	Safflower, 2011, Sacramento Valley, `link <>`_
+
+    Sugar Beets	Sugar beet, 2003, Southeast Interior, `link <>`_
+
+    Subtropical	Olive, 2016, Sacramento Valley, `link <>`_
+
+        Olive, 2011, Sacramento Valley, `link <>`_
+
+    Vineyards	Wine grape, 2013, Sacramento Valley, `link <>`_
+
+        Wine grape, 2008, Sacramento Valley, `link <>`_
+
+        Wine grape, 2016, North San Joaquin Valley, `link <>`_
+
+
