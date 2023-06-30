@@ -305,40 +305,23 @@ ________________________________________________________________________________
     Orchards, Walnut, 2018, Sacramento Valley, `link <https://web.archive.org/web/20200726023633/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3c/ef/3cefc943-ffea-407a-8281-240241efe5d5/18walnutssacval-final_draft-11518.pdf>`_
     Orchards, Walnut, 2015, Sacramento Valley, `link <https://web.archive.org/web/20200209220812/https://coststudyfiles.ucdavis.edu/uploads/cs_public/78/a7/78a775e3-6488-49d4-b234-b3eaf9171a55/15walnutssacvalleyfinaldraftjan4.pdf>`_
     Orchards, Bartlett pear, 2010, Sacramento Valley, `link <https://web.archive.org/web/20210926040213/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3d/89/3d892a7b-b898-466c-9024-2d8d3efc04c3/pearsv2010.pdf>`_
-    Field, Grain silage, 2013, South San Joaquin Valley, `link <>`_
-
-    Vegetables	Asparagus, 2013, North San Joaquin Valley, `link <>`_
-
-    Pasture	Pasture, 2015, Sacramento Valley, `link <>`_
-
-        Pasture, 2015, Sacramento Valley, `link <>`_
-
-        Pasture, 2003, Sacramento Valley, `link <>`_
-
-    Potato	Potato, 2015, Intermountain, `link <>`_
-
-        Potato, 2008, Intermountain, `link <>`_
-
-    Processing Tomatoes	Processing tomato, 2017, Sacramento Valley, `link <>`_
-
-        Processing tomato, 2014, Sacramento Valley, `link <>`_
-
-        Processing tomato, 2014, Sacramento Valley, `link <>`_
-
-    Rice	Rice, 2015, Sacramento Valley, `link <>`_
-
-    Safflower	Safflower, 2011, Sacramento Valley, `link <>`_
-
-    Sugar Beets	Sugar beet, 2003, Southeast Interior, `link <>`_
-
-    Subtropical	Olive, 2016, Sacramento Valley, `link <>`_
-
-        Olive, 2011, Sacramento Valley, `link <>`_
-
-    Vineyards	Wine grape, 2013, Sacramento Valley, `link <>`_
-
-        Wine grape, 2008, Sacramento Valley, `link <>`_
-
-        Wine grape, 2016, North San Joaquin Valley, `link <>`_
+    Field, Grain silage, 2013, South San Joaquin Valley, `link <https://web.archive.org/web/20160607033952/http://coststudyfiles.ucdavis.edu/uploads/cs_public/1a/d8/1ad8788d-8db4-4c43-9a84-19d48916311f/smallgrainsilagevs2013.pdf>`_
+    Vegetables, Asparagus, 2013, North San Joaquin Valley, `link <https://web.archive.org/web/20191022193321/https://coststudyfiles.ucdavis.edu/uploads/cs_public/91/0b/910b6b2a-1f01-4697-be7f-0ae88f5ee11b/asparagusvn2013.pdf>`_
+    Pasture, Pasture, 2015, Sacramento Valley, `link <https://web.archive.org/web/20200726023504/https://coststudyfiles.ucdavis.edu/uploads/cs_public/0e/23/0e230982-8610-42a4-8a26-32a0b10a4c5c/pasture_sv_2015.pdf>`_
+    Pasture, Pasture, 2015, Sacramento Valley, `link <https://web.archive.org/web/20230430171158/https://coststudyfiles.ucdavis.edu//uploads/cs_public/b2/a9/b2a91349-8ef5-4ed3-8b99-37eccbbdd272/pastureep_sv_2015.pdf>`_
+    Pasture, Pasture, 2003, Sacramento Valley, `link <https://web.archive.org/web/20200210071853/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3e/0f/3e0f1a8c-75b2-437e-8370-1cdfed476664/pasturesv03.pdf>`_
+    Potato, Potato, 2015, Klamath Basin, `link <https://web.archive.org/web/20200726023445/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3c/5c/3c5cf640-be4b-42bd-8a4c-af337c15d09d/15potatochipperklamathfinaldraftdec10.pdf>`_
+    Potato, Potato, 2008, Klamath Basin, `link <https://web.archive.org/web/20200209221235/https://coststudyfiles.ucdavis.edu/uploads/cs_public/81/84/8184c2a2-28a1-4d07-9e4c-0f3543306e03/potatoeschipir2008.pdf>`_
+    Processing Tomatoes, Processing tomato, 2017, Sacramento Valley, `link <https://web.archive.org/web/20200726023522/https://coststudyfiles.ucdavis.edu/uploads/cs_public/d7/b2/d7b2ee5f-8961-417d-b9d1-216d41fb47d8/2017processtomssacvalfinaldraft32817.pdf>`_
+    Processing Tomatoes, Processing tomato, 2014, Sacramento Valley, `link <https://web.archive.org/web/20200209230853/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3e/62/3e625c07-cf86-4591-a51d-6609fdd1f89f/process-tomato-drip.pdf>`_
+    Processing Tomatoes, Processing tomato, 2014, Sacramento Valley, `link <https://web.archive.org/web/20200209231201/https://coststudyfiles.ucdavis.edu/uploads/cs_public/46/9d/469d2b35-4c6f-4c19-b3d1-633ef72043c3/process-tomato-furrow.pdf>`_
+    Rice, Rice, 2015, Sacramento Valley, `link <https://web.archive.org/web/20200726023458/https://coststudyfiles.ucdavis.edu/uploads/cs_public/e8/9c/e89c1d86-f3fd-47bf-8e9a-02714e1e046e/2015_rice_2016_amendedfinaldraft7516-1.pdf>`_
+    Safflower, Safflower, 2011, Sacramento Valley, `link <https://web.archive.org/web/20200209223731/https://coststudyfiles.ucdavis.edu/uploads/cs_public/63/a9/63a948b0-8cef-4843-b66c-ac27006f726f/safflowersv2011.pdf>`_
+    Sugar Beets, Sugar beet, 2003, Southeast Interior, `link <https://web.archive.org/web/20200210034717/https://coststudyfiles.ucdavis.edu/uploads/cs_public/64/68/6468f81c-241a-44ea-923d-37c38de8feba/sugarbeetim03.pdf>`_
+    Subtropical, Olive, 2016, Sacramento Valley, `link <https://web.archive.org/web/20200726023451/https://coststudyfiles.ucdavis.edu/uploads/cs_public/ad/97/ad9753c5-0cdc-4d82-b358-31157d6e6061/2016tableolivessacramentovalleyfinaldraftmar17.pdf>`_
+    Subtropical, Olive, 2011, Sacramento Valley, `link <https://web.archive.org/web/20200210065430/https://coststudyfiles.ucdavis.edu/uploads/cs_public/54/26/54269a47-2bdb-4a22-84dd-567556d934d4/olivetablesv2011.pdf>`_
+    Vineyards, Wine grape, 2013, Sacramento Valley, `link <https://web.archive.org/web/20191022193355/https://coststudyfiles.ucdavis.edu/uploads/cs_public/42/a7/42a7ee28-6775-426d-9e93-e621128aeb5d/grapewinesv2013.pdf>`_
+    Vineyards, Wine grape, 2008, Sacramento Valley, `link <https://web.archive.org/web/20200209221308/https://coststudyfiles.ucdavis.edu/uploads/cs_public/13/46/134617e9-c64b-4cd3-919a-fd43634ed198/grapewinesv2008.pdf>`_
+    Vineyards, Wine grape, 2016, North San Joaquin Valley, `link <https://web.archive.org/web/20200726023426/https://coststudyfiles.ucdavis.edu/uploads/cs_public/a8/4a/a84a16ba-4971-4348-8a55-5f2f6f372134/2016grapewinelodifinaldraftmay192019.pdf>`_
 
 
