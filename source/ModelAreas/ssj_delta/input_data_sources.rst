@@ -293,29 +293,19 @@ ________________________________________________________________________________
     Almonds, Almond, 2012, Sacramento Valley, `link <https://web.archive.org/web/20200210073320/https://coststudyfiles.ucdavis.edu/uploads/cs_public/cb/be/cbbe6906-0b85-499c-98a5-c100c468fd6f/almondsprinklesv2012.pdf>`_
     Corn, Field corn, 2008, Sacramento Valley, `link <https://web.archive.org/web/20200209221148/https://coststudyfiles.ucdavis.edu/uploads/cs_public/35/1a/351a40bc-aa3b-45c1-9c0f-0c9e4bf688a2/cornsv2008.pdf>`_
     Corn, Field corn, 2015, North/South San Joaquin Valley, `link <https://web.archive.org/web/20200726023321/https://coststudyfiles.ucdavis.edu/uploads/cs_public/03/dc/03dc4496-32af-47c6-b479-38e1d27c134e/15cornsacramentovalleyfinaldraftjuly20.pdf>`_
-    Cotton	Cotton, 2012, North/South San Joaquin Valley, `link <https://web.archive.org/web/20211206082818/https://coststudyfiles.ucdavis.edu/uploads/cs_public/e0/15/e0152943-7158-4e13-8ca9-f95260582a2d/cotton2012acala.pdf>`_
+    Cotton, Cotton, 2012, North/South San Joaquin Valley, `link <https://web.archive.org/web/20211206082818/https://coststudyfiles.ucdavis.edu/uploads/cs_public/e0/15/e0152943-7158-4e13-8ca9-f95260582a2d/cotton2012acala.pdf>`_
     Cucurbits, Watermelon, 2003, Imperial County, `link <https://web.archive.org/web/20200209221059/https://coststudyfiles.ucdavis.edu/uploads/cs_public/a7/02/a70224a1-88de-4b9f-a314-cf3199341378/watermelon03.pdf>`_
     Cucurbits, Watermelon, 2000, Imperial County, `link <https://coststudyfiles.ucdavis.edu/uploads/cs_public/0f/ea/0fead9bf-49b1-4187-afc1-346d3ed6187b/watermelon.pdf>`_
-
-    Dry Beans	Dry bean, 2014, Sacramento Valley, `link <>`_
-
-        Dry bean, 2014, Sacramento Valley, `link <>`_
-
-    Fresh Tomato	Fresh tomato, 2007, North/South San Joaquin Valley, `link <>`_
-
-    Grain	Wheat, 2016, Sacramento Valley, `link <>`_
-
-        Wheat, 2009, Sacramento Valley, `link <>`_
-
-    Onions	Onion, 2006, South San Joaquin Valley, `link <>`_
-
-    Orchards	Walnut, 2018, Sacramento Valley, `link <>`_
-
-        Walnut, 2015, Sacramento Valley, `link <>`_
-
-        Bartlett pear, 2010, Sacramento Valley, `link <>`_
-
-    Field	Grain silage, 2013, South San Joaquin Valley, `link <>`_
+    Dry Beans, Dry bean, 2014, Sacramento Valley, `link <https://web.archive.org/web/20200726023237/https://coststudyfiles.ucdavis.edu/uploads/cs_public/a2/fe/a2fec200-2ff7-4166-9ff9-59b47bb28a70/beans_double-cropped_sv_2014.pdf>`_
+    Dry Beans, Dry bean, 2014, Sacramento Valley, `link <https://web.archive.org/web/20200726023313/https://coststudyfiles.ucdavis.edu/uploads/cs_public/de/d6/ded6333c-02e2-4a1c-9efb-b0b96a1fc713/beans_singlecropped_sv_2014.pdf>`_
+    Fresh Tomato, Fresh tomato, 2007, North/South San Joaquin Valley, `link <https://web.archive.org/web/20200209202102/https://coststudyfiles.ucdavis.edu/uploads/cs_public/2e/2a/2e2a411e-73e1-469c-9eae-8458c3badedf/tomatofrmktsj07.pdf>`_
+    Grain, Wheat, 2016, Sacramento Valley, `link <https://web.archive.org/web/20220119185854/https://coststudyfiles.ucdavis.edu/uploads/cs_public/dc/15/dc158210-055c-494c-9c2f-54083fbf0323/2016wheatsacvalleyfinaldraft122116.pdf>`_
+    Grain, Wheat, 2009, Sacramento Valley, `link <https://web.archive.org/web/20200209223257/https://coststudyfiles.ucdavis.edu/uploads/cs_public/64/d9/64d94b28-ba10-4e00-b879-88a1b1e81afc/wheatsv09.pdf>`_
+    Onions, Onion, 2006, South San Joaquin Valley, `link <https://web.archive.org/web/20230430175021/https://coststudyfiles.ucdavis.edu//uploads/cs_public/37/c8/37c88af8-b52e-45eb-bc21-2acd754b0c0a/onionredvs06.pdf>`_
+    Orchards, Walnut, 2018, Sacramento Valley, `link <https://web.archive.org/web/20200726023633/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3c/ef/3cefc943-ffea-407a-8281-240241efe5d5/18walnutssacval-final_draft-11518.pdf>`_
+    Orchards, Walnut, 2015, Sacramento Valley, `link <https://web.archive.org/web/20200209220812/https://coststudyfiles.ucdavis.edu/uploads/cs_public/78/a7/78a775e3-6488-49d4-b234-b3eaf9171a55/15walnutssacvalleyfinaldraftjan4.pdf>`_
+    Orchards, Bartlett pear, 2010, Sacramento Valley, `link <https://web.archive.org/web/20210926040213/https://coststudyfiles.ucdavis.edu/uploads/cs_public/3d/89/3d892a7b-b898-466c-9024-2d8d3efc04c3/pearsv2010.pdf>`_
+    Field, Grain silage, 2013, South San Joaquin Valley, `link <>`_
 
     Vegetables	Asparagus, 2013, North San Joaquin Valley, `link <>`_
 
